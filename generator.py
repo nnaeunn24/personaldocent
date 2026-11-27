@@ -3,6 +3,7 @@ import json
 import time
 import re
 from pathlib import Path
+from contextvars import ContextVar
 
 from dotenv import load_dotenv
 from google import genai
@@ -32,6 +33,7 @@ ARTWORKS = [
 SELECTION_MODEL = "gemini-3.5-flash-lite"
 
 LAST_CALL = {}
+CALL_OBSERVER = ContextVar("docent_call_observer", default=None)
 
 
 def load_artwork(artwork_name):
@@ -144,7 +146,10 @@ def call_model(
             ".env에 GEMINI_API_KEY를 설정하세요."
         )
 
-    client = genai.Client(api_key=api_key)
+    client = genai.Client(
+        api_key=api_key,
+        http_options=types.HttpOptions(retry_options=types.HttpRetryOptions(attempts=1)),
+    )
 
     config = {
         "temperature": temperature,
@@ -176,44 +181,71 @@ def call_model(
         time.perf_counter() - wait_start
     )
 
+    observer = CALL_OBSERVER.get()
+    finish = None
     start = time.perf_counter()
-    LAST_CALL[model] = time.monotonic()
+    try:
+        if observer:
+            finish = observer({
+                "model": model,
+                "prompt": prompt,
+                "temperature": temperature,
+                "json_output": json_output,
+                "wait_seconds": round(wait_seconds, 2),
+            })
+        start = time.perf_counter()
+        LAST_CALL[model] = time.monotonic()
+        response = client.models.generate_content(
+            model=model,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                **config
+            ),
+        )
 
-    response = client.models.generate_content(
-        model=model,
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            **config
-        ),
-    )
+        elapsed = time.perf_counter() - start
 
-    elapsed = time.perf_counter() - start
+        text = (response.text or "").strip()
 
-    text = (response.text or "").strip()
+        if not text:
+            raise RuntimeError("생성된 텍스트가 없습니다.")
 
-    if not text:
-        raise RuntimeError("생성된 텍스트가 없습니다.")
+        usage = response.usage_metadata
 
-    usage = response.usage_metadata
+        result = {
+            "model": model,
+            "text": text,
+            "elapsed_seconds": round(elapsed, 2),
+            "wait_seconds": round(wait_seconds, 2),
+            "input_tokens": getattr(
+                usage, "prompt_token_count", None
+            ),
+            "output_tokens": getattr(
+                usage, "candidates_token_count", None
+            ),
+            "thinking_tokens": getattr(
+                usage, "thoughts_token_count", None
+            ),
+            "total_tokens": getattr(
+                usage, "total_token_count", None
+            ),
+        }
 
-    return {
-        "model": model,
-        "text": text,
-        "elapsed_seconds": round(elapsed, 2),
-        "wait_seconds": round(wait_seconds, 2),
-        "input_tokens": getattr(
-            usage, "prompt_token_count", None
-        ),
-        "output_tokens": getattr(
-            usage, "candidates_token_count", None
-        ),
-        "thinking_tokens": getattr(
-            usage, "thoughts_token_count", None
-        ),
-        "total_tokens": getattr(
-            usage, "total_token_count", None
-        ),
-    }
+    except Exception as error:
+        if finish:
+            finish({
+                "status": "failed",
+                "error_type": type(error).__name__,
+                "http_status": getattr(error, "code", None),
+                "elapsed_seconds": round(time.perf_counter() - start, 2),
+            })
+        raise
+    finally:
+        client.close()
+
+    if finish:
+        finish({**result, "status": "success"})
+    return result
 
 
 def generate_docent(

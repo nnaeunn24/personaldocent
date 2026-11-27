@@ -15,6 +15,15 @@ from generator import (
 )
 
 from selector import select_knowledge
+from structured_generation import VARIANTS, generate_structured, load_structured_prompt
+
+VERSION_LABELS = {
+    "V0": "원문 기반 직접 생성",
+    "V1": "기존 관계 기반 생성",
+    "STRUCTURED_PAIR": "구조화 후보 · 단일 관계",
+    "STRUCTURED_MULTI": "구조화 후보 · 복수 관계",
+    "STRUCTURED_CU": "구조화 후보 · CU만",
+}
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -24,11 +33,6 @@ st.set_page_config(
 )
 
 st.title("Docent Generation Lab")
-
-st.caption(
-    "V0 · Direct Generation | "
-    "V1 · Relation-based Generation"
-)
 
 WHY = {
     "DISCOVERY": "발견",
@@ -99,8 +103,9 @@ with st.sidebar:
 
     versions = st.multiselect(
         "비교할 생성 방식",
-        ["V0", "V1"],
+        list(VERSION_LABELS),
         default=["V0", "V1"],
+        format_func=VERSION_LABELS.get,
     )
 
     temperature = st.slider(
@@ -223,10 +228,11 @@ except Exception as error:
 
 st.subheader("Prompt Settings")
 
-tab0, tab1, tab2 = st.tabs([
+tab0, tab1, tab2, tab3 = st.tabs([
     "V0 Prompt",
     "V1 Prompt",
-    "Selection Prompt",
+    "V1 Selection Prompt",
+    "구조화 후보 프롬프트",
 ])
 
 with tab0:
@@ -248,6 +254,15 @@ with tab2:
         "정보 선정 프롬프트",
         value=load_prompt("SELECTION"),
         height=300,
+    )
+
+
+with tab3:
+    structured_selection = st.text_area(
+        "구조화 후보 선택 및 관찰 계획", value=load_structured_prompt("selection"), height=260
+    )
+    structured_generation = st.text_area(
+        "구조화 후보 도슨트 생성", value=load_structured_prompt("generation"), height=260
     )
 
 
@@ -286,7 +301,7 @@ if st.button(
 
                     result["api_calls"] = 1
 
-                else:
+                elif version == "V1":
 
                     result = generate_v1(
                         model=model,
@@ -303,12 +318,20 @@ if st.button(
                         ),
                     )
 
+                else:
+                    result = generate_structured(
+                        version, model, artwork, why, what, how, context, target_length,
+                        temperature=temperature,
+                        template=structured_generation,
+                        selection_template=structured_selection,
+                    )
+
             except Exception as error:
 
                 result = {
                     "model": model,
                     "version": version,
-                    "error": str(error),
+                    "error": f"생성을 완료하지 못했습니다 ({type(error).__name__}).",
                 }
 
             results.append(result)
@@ -334,6 +357,8 @@ if st.button(
             "V0": v0_template,
             "V1": v1_template,
             "SELECTION": selection_template,
+            "STRUCTURED_SELECTION": structured_selection,
+            "STRUCTURED_GENERATION": structured_generation,
         },
         "results": results,
     }
@@ -424,9 +449,14 @@ def show_bundle(bundle):
 
         st.markdown("**선정 이유**")
 
-        st.write(
-            bundle["selection_reason"]
-        )
+        st.write(bundle["selection_reason"])
+        if bundle.get("observation_focus"):
+            st.write(bundle["observation_focus"])
+        with st.expander("CU 및 관계 원문 근거"):
+            st.json({
+                record["id"]: record.get("evidence", record.get("source_refs", []))
+                for record in [core, *bundle["related_units"], *bundle["relations"]]
+            })
 
 
 if st.session_state.results:
@@ -452,11 +482,7 @@ if st.session_state.results:
 
                 st.markdown(f"### {version}")
 
-                st.caption(
-                    "Direct Generation"
-                    if version == "V0"
-                    else "Relation-based Generation"
-                )
+                st.caption(VERSION_LABELS[version])
 
                 st.caption(result["model"])
 
@@ -489,7 +515,13 @@ if st.session_state.results:
                     f"API 호출: {result['api_calls']}회"
                 )
 
-                if version == "V1":
+                with st.expander("전체 API 사용량"):
+                    st.json({
+                        key: result.get(key)
+                        for key in ("input_tokens", "output_tokens", "thinking_tokens", "wait_seconds")
+                    })
+
+                if "bundles" in result:
 
                     st.divider()
 
@@ -548,6 +580,10 @@ if st.session_state.results:
                         st.json(
                             result["raw_selection"]
                         )
+
+                if version in VARIANTS:
+                    with st.expander("모델에 제공한 후보와 근거"):
+                        st.json(result["candidates"], expanded=False)
 
                 with st.expander(
                     "실제 Generation Prompt"

@@ -1,4 +1,4 @@
-"""Bounded, source-backed bundle candidates for an offline experiment."""
+"""Bounded candidates built from source-backed edges in the artwork graph."""
 
 from selector import load_json, load_knowledge, load_relations, select_knowledge
 
@@ -18,9 +18,11 @@ RELATION_PRIORITY = {
 }
 
 
-def build_candidates(artwork, what, *, use_relations=True):
-    """Return distinct, grounded options with at most one stored edge each."""
-    graph = select_knowledge(artwork, what, max_hops=1)
+def build_candidates(artwork, what, *, use_relations=True, max_relations=1):
+    """Return standalone units, pairs, and optionally connected triples."""
+    if max_relations not in {1, 2}:
+        raise ValueError("Supported relation limits are 1 and 2")
+    graph = select_knowledge(artwork, what, max_hops=max_relations)
     knowledge = load_knowledge(artwork)
     relations = load_relations(artwork)
     metadata = load_json(artwork, "artwork.json")
@@ -32,6 +34,7 @@ def build_candidates(artwork, what, *, use_relations=True):
     core_ids = [unit["id"] for unit in graph["core_units"] if unit["id"] in units]
     eligible_cores = set(core_ids)
     paired = {core: [] for core in core_ids}
+    adjacency = {uid: [] for uid in units}
     if use_relations:
         for edge_ref in graph["relations"]:
             edge = edges.get(edge_ref["id"])
@@ -40,14 +43,17 @@ def build_candidates(artwork, what, *, use_relations=True):
             source, target = edge["source_unit_id"], edge["target_unit_id"]
             if source not in units or target not in units:
                 continue
-            core, other = (source, target) if source in eligible_cores else (target, source)
-            paired[core].append((other, edge))
+            adjacency[source].append((target, edge))
+            adjacency[target].append((source, edge))
+            if source in eligible_cores or target in eligible_cores:
+                core, other = (source, target) if source in eligible_cores else (target, source)
+                paired[core].append((other, edge))
 
     # Reserve independent options and distribute pair slots across different cores.
     ranked_cores = sorted(
         core_ids, key=lambda core: (units[core].get("scope") in {"general", "later_context"}, core)
     )
-    choices = [(core, None, None) for core in ranked_cores]
+    choices = [(core, (), ()) for core in ranked_cores]
     if use_relations:
         for core in ranked_cores:
             paired[core].sort(
@@ -61,22 +67,52 @@ def build_candidates(artwork, what, *, use_relations=True):
         covered = {core for core, _, _ in independent}
         pairs = []
         for index in range(2):
-            for core in sorted(ranked_cores, key=lambda uid: (uid in covered, uid)):
+            for core in sorted(ranked_cores, key=lambda uid: uid in covered):
                 if index < len(paired[core]):
                     other, edge = paired[core][index]
-                    pairs.append((core, other, edge))
-        chosen_pairs = pairs[: MAX_CANDIDATES - len(independent)]
-        choices = chosen_pairs + independent
+                    pairs.append((core, (other,), (edge,)))
+        triples = connected_triples(pairs, adjacency) if max_relations == 2 else []
+        pair_slots = MAX_CANDIDATES - len(independent) - len(triples)
+        choices = pairs[:pair_slots] + triples + independent
         if len(choices) < MAX_CANDIDATES:
-            choices += [(core, None, None) for core in ranked_cores[4:]]
+            choices += [(core, (), ()) for core in ranked_cores[4:]]
     return {
         f"B{index:02d}": {
             "core_unit": units[core],
-            "related_units": [units[other]] if other else [],
-            "relations": [edge] if edge else [],
+            "related_units": [units[uid] for uid in others],
+            "relations": list(bundle_edges),
         }
-        for index, (core, other, edge) in enumerate(choices[:MAX_CANDIDATES], 1)
+        for index, (core, others, bundle_edges) in enumerate(choices[:MAX_CANDIDATES], 1)
     }
+
+
+def connected_triples(pairs, adjacency):
+    """Reserve up to four options, with one expansion per core and unique CU sets."""
+    triples = []
+    seen_units = set()
+    used_cores = set()
+    for core, (neighbor,), (first_edge,) in pairs:
+        if core in used_cores:
+            continue
+        extensions = sorted(
+            adjacency[core] + adjacency[neighbor],
+            key=lambda pair: (
+                RELATION_PRIORITY.get(pair[1]["relation_type"], 3),
+                pair[1]["grounding_type"] != "EXPLICIT",
+                pair[1]["id"],
+            ),
+        )
+        for other, edge in extensions:
+            unit_set = frozenset((core, neighbor, other))
+            if len(unit_set) != 3 or unit_set in seen_units:
+                continue
+            triples.append((core, (neighbor, other), (first_edge, edge)))
+            seen_units.add(unit_set)
+            used_cores.add(core)
+            break
+        if len(triples) == 4:
+            break
+    return triples
 
 
 def resolve_selection(candidate_ids, candidates, *, max_bundles=2):
