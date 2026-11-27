@@ -1,0 +1,589 @@
+
+{
+  "schema_version": "1.0",
+  "artwork_id": "bedroom",
+  "review_status": "draft_pending_human_review",
+  "relations": [
+    {
+      "id": "BED_REL_001",
+      "source_unit_id": "BED_CU_003",
+      "target_unit_id": "BED_CU_002",
+      "relation_type": "EXPRESSES",
+      "description": "색채와 형태의 단순화는 관람자의 정신과 상상력에 휴식을 주려는 표현 전략이다.",
+      "explanation_value": "표현 방식과 감상 목적을 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 17,
+          "quote": "looking at the painting should rest the mind, or rather, the imagination."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_002",
+      "source_unit_id": "BED_CU_005",
+      "target_unit_id": "BED_CU_003",
+      "relation_type": "EXEMPLIFIES",
+      "description": "버터빛 노란 가구는 색채를 강조한 표현 방식의 사례이다.",
+      "explanation_value": "구체적인 가구 색으로 표현 의도를 설명한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 17,
+          "quote": "the colour has to do the job here"
+        },
+        {
+          "source_id": "BED_02",
+          "line": 21,
+          "quote": "The bedstead and the chairs are fresh butter yellow."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_003",
+      "source_unit_id": "BED_CU_007",
+      "target_unit_id": "BED_CU_006",
+      "relation_type": "CONTRASTS_WITH",
+      "description": "선홍색 이불과 레몬빛 녹색 침구는 원래 색채 구성에서 대비된다.",
+      "explanation_value": "침구 사이의 색채 관계를 관찰하게 한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 23,
+          "quote": "The sheet and the pillows very bright lemon green."
+        },
+        {
+          "source_id": "BED_02",
+          "line": 25,
+          "quote": "The blanket scarlet red."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_004",
+      "source_unit_id": "BED_CU_009",
+      "target_unit_id": "BED_CU_012",
+      "relation_type": "EXEMPLIFIES",
+      "description": "주황색 화장대와 파란 세숫대야는 보색 구성의 사례로 읽을 수 있다.",
+      "explanation_value": "보색이라는 회화적 개념을 구체적인 사물로 설명한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 29,
+          "quote": "The dressing table orange, the basin blue."
+        },
+        {
+          "source_id": "BED_03",
+          "line": 55,
+          "quote": "to cram in the fourth pair of complementaries as well"
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_005",
+      "source_unit_id": "BED_CU_012",
+      "target_unit_id": "BED_CU_001",
+      "relation_type": "EXPRESSES",
+      "description": "고흐는 서로 다른 색조와 보색을 사용하면서 완전한 휴식을 표현하려 했다.",
+      "explanation_value": "다양한 색채와 휴식이라는 표현 의도의 공존을 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_03",
+          "line": 55,
+          "quote": "I had wished to express utter repose with all these very different tones"
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_006",
+      "source_unit_id": "BED_CU_011",
+      "target_unit_id": "BED_CU_001",
+      "relation_type": "COMPLEMENTS",
+      "description": "가구의 견고함은 색채와 함께 휴식을 표현하는 별도의 수단이다.",
+      "explanation_value": "휴식의 표현을 색채뿐 아니라 형태의 측면에서도 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 35,
+          "quote": "The solidity of the furniture should also now express unshakeable repose."
+        },
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "The bright colours were meant to express absolute ‘repose’ or ‘sleep’."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_007",
+      "source_unit_id": "BED_CU_013",
+      "target_unit_id": "BED_CU_014",
+      "relation_type": "DISTINGUISHES_FROM",
+      "description": "실제 방 모퉁이의 비스듬함과 일반 원근법을 벗어난 의도적 선택은 구분해야 한다.",
+      "explanation_value": "작품의 독특한 공간감을 실제 공간 구조와 회화적 선택으로 나누어 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "the corner really was skewed. The rules of perspective seem not to have been accurately applied throughout the painting, but this was a deliberate choice."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_008",
+      "source_unit_id": "BED_CU_015",
+      "target_unit_id": "BED_CU_014",
+      "relation_type": "EXPLAINS",
+      "description": "그림자 생략과 평면화는 일본 판화에 가까운 공간 표현을 추구한 선택이다.",
+      "explanation_value": "원근법에 관한 설명을 구체적인 표현 방식과 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "he had deliberately ‘flattened’ the interior and left out the shadows so that his picture would resemble a Japanese print."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_009",
+      "source_unit_id": "BED_CU_018",
+      "target_unit_id": "BED_CU_015",
+      "relation_type": "EXEMPLIFIES",
+      "description": "초판 침대의 평평한 물감 처리는 일본 판화풍 표현의 구체적인 사례이다.",
+      "explanation_value": "작품 전반의 표현 기법을 실제 관찰 가능한 침대와 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 69,
+          "quote": "The bed in the first version is strongly reminiscent of Japanese prints, with a much flatter paint application."
+        },
+        {
+          "source_id": "BED_02",
+          "line": 43,
+          "quote": "The shadows and cast shadows are removed; it’s coloured in flat, plain tints like Japanese prints."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_010",
+      "source_unit_id": "BED_CU_016",
+      "target_unit_id": "BED_CU_015",
+      "relation_type": "COMPLEMENTS",
+      "description": "평평한 색면과 두껍고 거친 물감 처리는 함께 사용된 서로 다른 표현 특성이다.",
+      "explanation_value": "시각적 평면성과 물감의 물리적 질감을 구분하여 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_03",
+          "line": 55,
+          "quote": "In flat tints, but coarsely brushed in full impasto"
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_011",
+      "source_unit_id": "BED_CU_017",
+      "target_unit_id": "BED_CU_003",
+      "relation_type": "PROVIDES_CONTEXT",
+      "description": "고흐가 언급한 쇠라와 같은 단순함은 색채와 형태를 단순화한 표현 방식의 미술사적 맥락을 제공한다.",
+      "explanation_value": "형태의 단순화를 당시 회화적 관심과 연결한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "BED_03",
+          "line": 53,
+          "quote": "With a simplicity à la Seurat."
+        },
+        {
+          "source_id": "BED_02",
+          "line": 17,
+          "quote": "through its being simplified by giving a grander style to things"
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_012",
+      "source_unit_id": "BED_CU_019",
+      "target_unit_id": "BED_CU_018",
+      "relation_type": "COMPLEMENTS",
+      "description": "침대의 평평한 물감 처리와 붉은색 및 짙은 파란색 윤곽선은 침대의 서로 다른 조형적 특징이다.",
+      "explanation_value": "침대의 색면과 윤곽선이 어떻게 구성되어 있는지 함께 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 69,
+          "quote": "The bed in the first version is strongly reminiscent of Japanese prints, with a much flatter paint application. The red and dark-blue outline of the bed frame enhances the wooden boards"
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_013",
+      "source_unit_id": "BED_CU_022",
+      "target_unit_id": "BED_CU_005",
+      "relation_type": "ELABORATES",
+      "description": "노란색 의자 틀에는 두 가지 이상의 노란색과 구조를 강조하는 윤곽선이 사용되었다.",
+      "explanation_value": "단순한 색채 묘사를 구체적인 회화 기법으로 심화한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 65,
+          "quote": "Van Gogh used at least two distinct shades of yellow for the frames of the chairs, and he painted outlines to reinforce their structures."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_014",
+      "source_unit_id": "BED_CU_023",
+      "target_unit_id": "BED_CU_022",
+      "relation_type": "ELABORATES",
+      "description": "초판 의자의 등받이는 연녹색 바탕과 밝은 파란 윤곽선을 사용한 구체적인 표현 사례이다.",
+      "explanation_value": "의자 전체의 색채 구성에서 등받이의 세부적인 표현으로 관찰을 확장한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 65,
+          "quote": "The first version is painted in mostly flat tints except for the back of the chair, which the artist first painted with a light-green layer and contrasting bright-blue outlines."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_015",
+      "source_unit_id": "BED_CU_022",
+      "target_unit_id": "BED_CU_011",
+      "relation_type": "SUPPORTS_INTERPRETATION",
+      "description": "의자의 구조를 강조하는 윤곽선은 가구의 견고함에 주목할 수 있는 시각적 근거이다.",
+      "explanation_value": "가구의 견고함을 통한 휴식 표현을 구체적인 관찰 대상으로 연결한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 65,
+          "quote": "he painted outlines to reinforce their structures."
+        },
+        {
+          "source_id": "BED_02",
+          "line": 35,
+          "quote": "The solidity of the furniture should also now express unshakeable repose."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_016",
+      "source_unit_id": "BED_CU_024",
+      "target_unit_id": "BED_CU_019",
+      "relation_type": "COMPLEMENTS",
+      "description": "침대의 윤곽을 먼저 그리고 내부를 채운 제작 순서와 완성된 윤곽선의 시각적 효과는 상호 보완적인 정보이다.",
+      "explanation_value": "침대가 제작된 과정과 완성된 화면의 특징을 함께 이해하게 한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 67,
+          "quote": "he first outlined the frame, pillows, and sheets and then filled in his outlines."
+        },
+        {
+          "source_id": "BED_04",
+          "line": 69,
+          "quote": "The red and dark-blue outline of the bed frame enhances the wooden boards"
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_017",
+      "source_unit_id": "BED_CU_028",
+      "target_unit_id": "BED_CU_008",
+      "relation_type": "ELABORATES",
+      "description": "고흐가 녹색으로 묘사한 창문의 창틀에는 에메랄드 그린 안료가 사용되었다.",
+      "explanation_value": "일반적인 색채 묘사를 과학적 안료 분석 결과로 심화한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 27,
+          "quote": "The window green."
+        },
+        {
+          "source_id": "BED_04",
+          "line": 73,
+          "quote": "For the first Bedroom, Van Gogh painted the window frame with emerald green."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_018",
+      "source_unit_id": "BED_CU_026",
+      "target_unit_id": "BED_CU_027",
+      "relation_type": "EXEMPLIFIES",
+      "description": "벽과 문의 보라색이 파란색으로 변한 것은 시간에 따른 색채 변화의 구체적인 사례이다.",
+      "explanation_value": "현재 작품의 색채가 제작 당시와 다른 이유를 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "Research shows that the strongly contrasting colours we see in the work today are the result of discolouration over the years. The walls and doors, for instance, were originally purple rather than blue."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_019",
+      "source_unit_id": "BED_CU_004",
+      "target_unit_id": "BED_CU_026",
+      "relation_type": "COMPLEMENTS",
+      "description": "고흐가 편지에서 묘사한 연보라색 벽은 현재 벽의 색채가 원래와 다르다는 연구 결과와 연결된다.",
+      "explanation_value": "작가의 기록과 현재 작품의 모습을 비교한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 19,
+          "quote": "The walls are of a pale violet."
+        },
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "The walls and doors, for instance, were originally purple rather than blue."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_020",
+      "source_unit_id": "BED_CU_010",
+      "target_unit_id": "BED_CU_026",
+      "relation_type": "COMPLEMENTS",
+      "description": "편지에 기록된 라일락색 문과 현재 파란색으로 보이는 문은 제작 당시와 현재의 색채 차이를 보여준다.",
+      "explanation_value": "작품 속 문을 중심으로 시간에 따른 색채 변화를 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 31,
+          "quote": "The doors lilac."
+        },
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "The walls and doors, for instance, were originally purple rather than blue."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_021",
+      "source_unit_id": "BED_CU_031",
+      "target_unit_id": "BED_CU_029",
+      "relation_type": "EXPLAINS",
+      "description": "붉은 안료의 변화 속도 차이와 붓질 및 물감 손실은 현재 바닥의 모습에 영향을 준 요인이다.",
+      "explanation_value": "관람객이 현재 보는 바닥의 색채를 재료의 변화 과정과 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 75,
+          "quote": "the floor of the Amsterdam version is dominated by pinkish to purple colors with green outlines."
+        },
+        {
+          "source_id": "BED_04",
+          "line": 77,
+          "quote": "The different mix of original colors—as well as different brushstrokes and areas where paint has been lost (which started in Van Gogh's lifetime)—caused the floors to look different today than they originally appeared."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_022",
+      "source_unit_id": "BED_CU_030",
+      "target_unit_id": "BED_CU_031",
+      "relation_type": "PROVIDES_CONTEXT",
+      "description": "담황갈색 바탕과 여러 붉은 안료로 이루어진 제작 당시의 바닥 구성은 이후 안료 변화 과정을 이해하는 데 필요한 정보이다.",
+      "explanation_value": "원래의 재료 구성과 시간에 따른 변화를 연속적으로 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 77,
+          "quote": "Originally, Van Gogh painted different base layers for the floors: buff-colored for the first. He then added another layer of various red pigments, which have altered at different rates over time."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_023",
+      "source_unit_id": "BED_CU_020",
+      "target_unit_id": "BED_CU_032",
+      "relation_type": "ELABORATES",
+      "description": "자신의 침실을 직접 꾸민 사실은 그림이 실제 생활 공간을 묘사했다는 배경을 구체화한다.",
+      "explanation_value": "실내 사물을 작가의 실제 생활과 연결하여 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "While he was in Arles, Van Gogh made this painting of his bedroom in the Yellow House. He prepared the room himself with simple furniture and with his own work on the wall."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_024",
+      "source_unit_id": "BED_CU_033",
+      "target_unit_id": "BED_CU_032",
+      "relation_type": "PROVIDES_CONTEXT",
+      "description": "시카고 미술관이 진정한 집처럼 느낀 장소로 설명하는 노란 집은 작품의 제작 배경이다.",
+      "explanation_value": "작품에 등장하는 공간이 작가에게 지녔던 의미를 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 59,
+          "quote": "Van Gogh painted his first Bedroom just after moving into his beloved “Yellow House”—the first place that truly felt like home—in Arles, France, in 1888."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_025",
+      "source_unit_id": "BED_CU_035",
+      "target_unit_id": "BED_CU_021",
+      "relation_type": "ELABORATES",
+      "description": "벽에 걸린 초상화는 외젠 보흐와 폴 외젠 밀리에를 그린 것이다.",
+      "explanation_value": "작품 속 작은 시각적 요소에 구체적인 인물 정보를 부여한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 37,
+          "quote": "Portraits on the wall, and a mirror and a hand-towel and some clothes."
+        },
+        {
+          "source_id": "BED_04",
+          "line": 79,
+          "quote": "one is of Eugène Boch and the other is Lieutenant Paul-Eugène Milliet."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_026",
+      "source_unit_id": "BED_CU_035",
+      "target_unit_id": "BED_CU_036",
+      "relation_type": "SUPPORTS_INTERPRETATION",
+      "description": "두 인물의 초상화는 시카고 미술관이 예술가 공동체에 대한 기대와 연결하는 시각적 근거이다.",
+      "explanation_value": "구체적인 시각적 대상에서 작품의 사회적 의미와 큐레이터의 해석으로 설명을 확장한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 79,
+          "quote": "The artist hoped to develop a community of artists in Arles, and these portraits embody the spirit of camaraderie he hoped would fill his home."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_027",
+      "source_unit_id": "BED_CU_034",
+      "target_unit_id": "BED_CU_036",
+      "relation_type": "PROVIDES_CONTEXT",
+      "description": "고갱의 입주와 작품에 대한 호평은 아를에서 예술가 공동체를 기대하던 시기의 배경이다.",
+      "explanation_value": "공동체에 대한 기대를 당시 실제 예술가 교류와 연결한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 59,
+          "quote": "He was very pleased with the painting and delighted that artist Paul Gauguin, who moved in a week later, admired it as well."
+        },
+        {
+          "source_id": "BED_04",
+          "line": 79,
+          "quote": "The artist hoped to develop a community of artists in Arles"
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_028",
+      "source_unit_id": "BED_CU_037",
+      "target_unit_id": "BED_CU_038",
+      "relation_type": "PROVIDES_CONTEXT",
+      "description": "눈의 피로로 쉬었던 경험은 강제된 휴식에 대한 대응이라는 작가의 설명을 이해하는 배경이다.",
+      "explanation_value": "작품 제작의 개인적 계기를 구체적으로 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_03",
+          "line": 49,
+          "quote": "Well, I rested for two and a half days, and then I got back to work."
+        },
+        {
+          "source_id": "BED_02",
+          "line": 41,
+          "quote": "This to take my revenge for the enforced rest that I was obliged to take."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_029",
+      "source_unit_id": "BED_CU_038",
+      "target_unit_id": "BED_CU_001",
+      "relation_type": "CONTRASTS_WITH",
+      "description": "강제로 쉬어야 했던 경험에 대한 대응과 그림을 통해 휴식을 표현하려는 의도가 함께 나타난다.",
+      "explanation_value": "작가가 경험한 휴식과 작품으로 표현하고자 한 휴식 사이의 흥미로운 대비를 보여준다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 17,
+          "quote": "to be suggestive here of rest or of sleep in general."
+        },
+        {
+          "source_id": "BED_02",
+          "line": 41,
+          "quote": "This to take my revenge for the enforced rest that I was obliged to take."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_030",
+      "source_unit_id": "BED_CU_040",
+      "target_unit_id": "BED_CU_041",
+      "relation_type": "EXPLAINS",
+      "description": "침수로 초판이 손상된 뒤 보강 작업의 위험 때문에 테오가 복제본 제작을 권했다.",
+      "explanation_value": "두 번째 버전이 제작된 역사적 배경을 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 61,
+          "quote": "Unfortunately, flooding in the Yellow House later that year caused damage to some of the artist’s canvases, including the first Bedroom."
+        },
+        {
+          "source_id": "BED_04",
+          "line": 61,
+          "quote": "Theo suggested that Van Gogh paint a copy before such a risky procedure be attempted."
+        }
+      ]
+    },
+    {
+      "id": "BED_REL_031",
+      "source_unit_id": "BED_CU_041",
+      "target_unit_id": "BED_CU_042",
+      "relation_type": "ELABORATES",
+      "description": "1889년 제작된 두 번째 버전은 시카고 미술관 소장품이다.",
+      "explanation_value": "초판과 후속 버전의 제작 시기 및 소장처를 구분한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 61,
+          "quote": "Identical in scale and yet distinct from the original, this second version is now one of the icons of the Art Institute’s permanent collection."
+        }
+      ]
+    }
+  ]
+}

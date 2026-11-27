@@ -1,0 +1,778 @@
+
+{
+  "schema_version": "1.0",
+  "artwork_id": "starry_night",
+  "review_status": "draft_pending_human_review",
+  "relations": [
+    {
+      "id": "STAR_REL_001",
+      "source_unit_id": "STAR_CU_008",
+      "target_unit_id": "STAR_CU_001",
+      "relation_type": "ELABORATES",
+      "description": "고흐가 편지에 기록한 해 뜨기 전의 샛별은 요양원 창밖에서 얻은 영감의 구체적인 사례이다.",
+      "explanation_value": "작품의 제작 배경을 작가가 직접 경험하고 기록한 관찰과 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 11,
+          "quote": "This morning I saw the countryside from my window a long time before sunrise, with nothing but the morning star, which looked very big"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_002",
+      "source_unit_id": "STAR_CU_003",
+      "target_unit_id": "STAR_CU_007",
+      "relation_type": "SUPPORTS_INTERPRETATION",
+      "description": "밤에 관찰한 풍경을 낮 동안 제작했다는 사실은 작품이 직접적인 야경 재현에 그치지 않았음을 이해하는 근거이다.",
+      "explanation_value": "관찰과 실제 제작 과정의 차이를 통해 작품의 재구성적 성격을 설명한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "The vision took place at night, yet the painting, among hundreds of artworks van Gogh made that year, was created in several sessions during the day, under entirely different atmospheric conditions."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_003",
+      "source_unit_id": "STAR_CU_004",
+      "target_unit_id": "STAR_CU_007",
+      "relation_type": "EXEMPLIFIES",
+      "description": "창밖에서 볼 수 없었던 마을의 등장은 실제 관찰을 넘어 풍경을 재구성한 사례이다.",
+      "explanation_value": "관찰과 상상의 결합이라는 추상적인 설명을 화면 하단의 마을과 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "The picturesque village nestled below the hills was based on other views—it could not be seen from his window"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_004",
+      "source_unit_id": "STAR_CU_005",
+      "target_unit_id": "STAR_CU_007",
+      "relation_type": "EXEMPLIFIES",
+      "description": "사이프러스를 실제보다 가까이 배치한 것은 관찰한 풍경을 회화적으로 재구성한 사례이다.",
+      "explanation_value": "작가의 상상과 조형적 선택을 화면 속 나무의 위치를 통해 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "the cypress at left appears much closer than it was."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_005",
+      "source_unit_id": "STAR_CU_006",
+      "target_unit_id": "STAR_CU_007",
+      "relation_type": "EXEMPLIFIES",
+      "description": "천체의 형태를 변형하고 빛나는 효과를 더한 것은 실제 관찰에 회화적 표현을 결합한 사례이다.",
+      "explanation_value": "관찰과 상상의 결합이 밤하늘의 구체적인 표현에서 어떻게 나타나는지 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "And although certain features of the sky have been reconstructed as observed, the artist altered celestial shapes and added a sense of glow."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_006",
+      "source_unit_id": "STAR_CU_024",
+      "target_unit_id": "STAR_CU_004",
+      "relation_type": "ELABORATES",
+      "description": "네덜란드에서 흔한 교회 첨탑의 형태는 창밖에서 직접 볼 수 없었던 마을이 다른 풍경을 바탕으로 구성되었음을 구체화한다.",
+      "explanation_value": "재구성된 마을의 배경을 관람객이 직접 찾을 수 있는 교회 첨탑과 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "The picturesque village nestled below the hills was based on other views—it could not be seen from his window"
+        },
+        {
+          "source_id": "STAR_02",
+          "line": 17,
+          "quote": "The steeple of the church, for example, resembles those common in his native Holland, not in France."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_007",
+      "source_unit_id": "STAR_CU_024",
+      "target_unit_id": "STAR_CU_007",
+      "relation_type": "EXEMPLIFIES",
+      "description": "네덜란드풍 교회 첨탑은 작가의 기억이 관찰한 풍경에 결합된 사례이다.",
+      "explanation_value": "작품에 반영된 기억이라는 개념을 구체적인 건축 요소를 통해 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 17,
+          "quote": "The Starry Night is based on van Gogh’s direct observations as well as his imagination, memories, and emotions. The steeple of the church, for example, resembles those common in his native Holland, not in France."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_008",
+      "source_unit_id": "STAR_CU_008",
+      "target_unit_id": "STAR_CU_016",
+      "relation_type": "PROVIDES_CONTEXT",
+      "description": "편지에 기록된 샛별 관찰은 중앙 왼쪽의 밝은 천체를 금성으로 해석하는 데 관련된 제작 배경이다.",
+      "explanation_value": "작품 속 천체를 작가의 실제 관찰 경험과 연결한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 11,
+          "quote": "with nothing but the morning star, which looked very big"
+        },
+        {
+          "source_id": "STAR_04",
+          "line": 45,
+          "quote": "a golden orb surrounded by a white halo of paint that may be Venus, which is known as the morning star."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_009",
+      "source_unit_id": "STAR_CU_010",
+      "target_unit_id": "STAR_CU_009",
+      "relation_type": "ELABORATES",
+      "description": "옆으로 누운 두 개의 S자 형태는 밤하늘의 파도 같은 소용돌이를 구체화한다.",
+      "explanation_value": "관람객이 소용돌이의 실제 형태와 흐름을 화면에서 따라갈 수 있도록 한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 45,
+          "quote": "In the middle of the sky, swirling light blue bands—like two letter “S’s” on their sides— tumble in horizontally from the left of the canvas"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_010",
+      "source_unit_id": "STAR_CU_011",
+      "target_unit_id": "STAR_CU_009",
+      "relation_type": "EXPLAINS",
+      "description": "짧고 두꺼운 붓질은 소용돌이치는 밤하늘에 움직임을 부여하는 표현 기법이다.",
+      "explanation_value": "관람객이 느끼는 역동성을 실제 붓질의 특징과 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 39,
+          "quote": "the turbulent sky is painted in hundreds of short, thickly applied brushstrokes, which give the appearance of roiling movement."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_011",
+      "source_unit_id": "STAR_CU_013",
+      "target_unit_id": "STAR_CU_010",
+      "relation_type": "COMPLEMENTS",
+      "description": "중앙의 소용돌이치는 파란 띠와 지평선의 밝고 밀집된 구름 띠는 밤하늘을 구성하는 서로 다른 시각적 층위이다.",
+      "explanation_value": "밤하늘을 하나의 소용돌이로만 설명하지 않고 내부의 구조와 배치를 구체적으로 관찰하게 한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 45,
+          "quote": "Below, a lighter, denser band of clouds lines the horizon."
+        },
+        {
+          "source_id": "STAR_04",
+          "line": 45,
+          "quote": "In the middle of the sky, swirling light blue bands—like two letter “S’s” on their sides— tumble in horizontally from the left of the canvas"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_012",
+      "source_unit_id": "STAR_CU_012",
+      "target_unit_id": "STAR_CU_013",
+      "relation_type": "COMPLEMENTS",
+      "description": "지평선 쪽으로 밝아지는 하늘의 색채와 지평선의 밝은 구름 띠는 화면 하단으로 이어지는 색채 및 공간 구성의 특징이다.",
+      "explanation_value": "하늘의 색조 변화와 구름의 배치를 함께 관찰하도록 한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 39,
+          "quote": "Towards the top of the canvas the sky is a dark lapis blue, which gets lighter closer to the horizon."
+        },
+        {
+          "source_id": "STAR_04",
+          "line": 45,
+          "quote": "Below, a lighter, denser band of clouds lines the horizon."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_013",
+      "source_unit_id": "STAR_CU_009",
+      "target_unit_id": "STAR_CU_014",
+      "relation_type": "ELABORATES",
+      "description": "파도처럼 이어지는 소용돌이는 고요한 마을과 대비되는 밤하늘의 역동성을 구체적으로 보여준다.",
+      "explanation_value": "하늘과 마을의 대비를 추상적인 분위기가 아닌 실제 화면의 형태로 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 13,
+          "quote": "with intensely swirling patterns that seem to roll across its surface like waves."
+        },
+        {
+          "source_id": "STAR_04",
+          "line": 37,
+          "quote": "The sky is the most dynamic part of the painting. It stands in contrast to a quiet village"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_014",
+      "source_unit_id": "STAR_CU_021",
+      "target_unit_id": "STAR_CU_011",
+      "relation_type": "CONTRASTS_WITH",
+      "description": "마을의 직선적 형태와 차분한 색조는 밤하늘의 짧고 역동적인 붓질과 대비된다.",
+      "explanation_value": "하늘과 마을의 분위기 차이를 서로 다른 회화적 표현 방식으로 설명한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 49,
+          "quote": "The houses are rendered with straight horizontal, vertical, and diagonal lines and painted in muted, nighttime tones"
+        },
+        {
+          "source_id": "STAR_04",
+          "line": 39,
+          "quote": "hundreds of short, thickly applied brushstrokes, which give the appearance of roiling movement."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_015",
+      "source_unit_id": "STAR_CU_021",
+      "target_unit_id": "STAR_CU_014",
+      "relation_type": "SUPPORTS_INTERPRETATION",
+      "description": "마을의 직선적인 형태와 차분한 색조는 역동적인 하늘과 고요한 마을의 대비를 관찰할 수 있는 시각적 근거이다.",
+      "explanation_value": "작품의 정서적 대비를 구체적인 선과 색채의 특징으로 뒷받침한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 49,
+          "quote": "The houses are rendered with straight horizontal, vertical, and diagonal lines and painted in muted, nighttime tones"
+        },
+        {
+          "source_id": "STAR_04",
+          "line": 37,
+          "quote": "It stands in contrast to a quiet village"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_016",
+      "source_unit_id": "STAR_CU_017",
+      "target_unit_id": "STAR_CU_006",
+      "relation_type": "EXPLAINS",
+      "description": "별 중심의 노랑과 주황에서 연녹색을 거쳐 짙은 파랑으로 이어지는 색채 전환은 천체의 빛나는 효과를 이해할 수 있는 구체적인 표현 방식이다.",
+      "explanation_value": "별빛이라는 시각적 효과를 색채 배치와 전환 기법으로 설명한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 41,
+          "quote": "In most cases, van Gogh dots their center with a saturated yellow or orange, then adds light green to transition from these warmer colors to the deep blues of the sky."
+        },
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "the artist altered celestial shapes and added a sense of glow."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_017",
+      "source_unit_id": "STAR_CU_018",
+      "target_unit_id": "STAR_CU_015",
+      "relation_type": "ELABORATES",
+      "description": "초승달 주변의 노랑, 초록, 파랑의 원형 붓질은 천체를 둘러싼 빛의 고리를 구체화한다.",
+      "explanation_value": "달의 형태뿐 아니라 주변 빛이 어떤 색채와 붓질로 구성되는지 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 43,
+          "quote": "In the upper right corner, hangs a vibrant yellow crescent moon, also surrounded by strokes of yellow, green, and blue paint forming a circle around it."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_018",
+      "source_unit_id": "STAR_CU_017",
+      "target_unit_id": "STAR_CU_018",
+      "relation_type": "COMPLEMENTS",
+      "description": "별의 단계적인 색채 전환과 달 주변의 원형 붓질은 서로 다른 천체에서 빛을 표현하는 방식을 비교할 수 있게 한다.",
+      "explanation_value": "별과 달을 함께 관찰하면서 빛의 표현에 사용된 색채 구성의 공통점과 차이를 이해하게 한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 41,
+          "quote": "van Gogh dots their center with a saturated yellow or orange, then adds light green"
+        },
+        {
+          "source_id": "STAR_04",
+          "line": 43,
+          "quote": "surrounded by strokes of yellow, green, and blue paint forming a circle around it."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_019",
+      "source_unit_id": "STAR_CU_019",
+      "target_unit_id": "STAR_CU_020",
+      "relation_type": "CONTRASTS_WITH",
+      "description": "언덕의 파란색 사선 붓질과 나무 꼭대기의 청록색 곡선 붓질은 인접한 자연 요소를 서로 다른 방향의 붓질로 표현한 사례이다.",
+      "explanation_value": "고흐가 모든 자연 요소를 동일한 붓질로 처리하지 않았음을 구체적으로 보여준다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 47,
+          "quote": "They are made of diagonal blue brushstrokes. Below the hills, on the right side of the painting, are blue-green treetops made from curved brush strokes."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_020",
+      "source_unit_id": "STAR_CU_022",
+      "target_unit_id": "STAR_CU_021",
+      "relation_type": "ELABORATES",
+      "description": "일부 집의 노란 사각형은 차분한 색조로 표현된 마을 속 실내 불빛을 나타내는 세부 요소이다.",
+      "explanation_value": "마을의 전체적인 색채에서 개별 집의 작은 불빛으로 관찰을 확장한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 49,
+          "quote": "A few are dotted with yellow squares to indicate light coming from their interiors."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_021",
+      "source_unit_id": "STAR_CU_023",
+      "target_unit_id": "STAR_CU_024",
+      "relation_type": "COMPLEMENTS",
+      "description": "마을 중앙에서 지평선 위로 솟아 있는 교회 첨탑은 네덜란드풍 건축 형태를 관찰할 수 있는 구체적인 대상이다.",
+      "explanation_value": "교회의 위치와 형태를 작가의 고향에 관련된 배경 정보와 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 49,
+          "quote": "A blue-gray church stands in the center of the town, its pointed steeple barely breaches the horizon."
+        },
+        {
+          "source_id": "STAR_02",
+          "line": 17,
+          "quote": "The steeple of the church, for example, resembles those common in his native Holland, not in France."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_022",
+      "source_unit_id": "STAR_CU_025",
+      "target_unit_id": "STAR_CU_028",
+      "relation_type": "EXPLAINS",
+      "description": "불꽃처럼 위로 솟아 화면 상단 가까이 이르는 사이프러스의 형태는 땅과 하늘을 시각적으로 연결한다.",
+      "explanation_value": "사이프러스의 구성상 역할을 나무의 실제 형태와 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 15,
+          "quote": "Flame-like, it reaches almost to the top edge of the canvas, serving as a visual link between land and sky."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_023",
+      "source_unit_id": "STAR_CU_026",
+      "target_unit_id": "STAR_CU_027",
+      "relation_type": "EXPLAINS",
+      "description": "짙은 녹색, 갈색, 검은색 붓질은 사이프러스가 화면에서 가장 어두운 요소로 나타나는 구체적인 색채 구성이다.",
+      "explanation_value": "사이프러스의 어두운 인상을 실제 사용된 색채와 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 51,
+          "quote": "It’s painted with dark green, brown, and black brushstrokes"
+        },
+        {
+          "source_id": "STAR_04",
+          "line": 51,
+          "quote": "Of all the features in the painting, the tree is nearest to us, and the darkest in color."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_024",
+      "source_unit_id": "STAR_CU_005",
+      "target_unit_id": "STAR_CU_027",
+      "relation_type": "COMPLEMENTS",
+      "description": "실제보다 가까이 표현된 사이프러스와 화면에서 가장 가까운 전경을 차지하는 사이프러스의 위치는 풍경의 재구성과 화면 배치를 함께 보여준다.",
+      "explanation_value": "작가가 관찰한 공간과 관람객이 화면에서 경험하는 공간의 차이를 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "the cypress at left appears much closer than it was."
+        },
+        {
+          "source_id": "STAR_04",
+          "line": 51,
+          "quote": "Of all the features in the painting, the tree is nearest to us, and the darkest in color."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_025",
+      "source_unit_id": "STAR_CU_028",
+      "target_unit_id": "STAR_CU_030",
+      "relation_type": "SUPPORTS_INTERPRETATION",
+      "description": "사이프러스가 땅과 하늘을 시각적으로 연결하는 형태는 삶과 죽음을 잇는 상징으로 해석할 수 있는 근거이다. 이는 확정된 작가 의도가 아니다.",
+      "explanation_value": "상징적 해석을 작품 속에서 실제로 관찰할 수 있는 형태와 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 15,
+          "quote": "serving as a visual link between land and sky. Considered symbolically, the cypress could be seen as a bridge between life, as represented by the earth, and death, as represented by the sky"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_026",
+      "source_unit_id": "STAR_CU_031",
+      "target_unit_id": "STAR_CU_030",
+      "relation_type": "PROVIDES_CONTEXT",
+      "description": "사이프러스가 묘지와 애도를 연상시키는 나무로 여겨졌다는 문화적 맥락은 삶과 죽음을 잇는 상징적 해석을 이해하는 데 도움을 준다.",
+      "explanation_value": "상징적 해석의 문화적 배경을 제공하되 작가의 의도로 단정하지 않는다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 15,
+          "quote": "Cypresses were also regarded as trees of the graveyard and mourning."
+        },
+        {
+          "source_id": "STAR_02",
+          "line": 15,
+          "quote": "the cypress could be seen as a bridge between life, as represented by the earth, and death, as represented by the sky"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_027",
+      "source_unit_id": "STAR_CU_023",
+      "target_unit_id": "STAR_CU_029",
+      "relation_type": "ELABORATES",
+      "description": "마을 중앙에서 지평선 위로 솟은 교회 첨탑은 사이프러스와 중앙 소용돌이와 함께 화면 구성을 이루는 구체적인 요소이다.",
+      "explanation_value": "균형 잡힌 구도라는 설명을 화면에서 찾을 수 있는 실제 위치와 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 49,
+          "quote": "its pointed steeple barely breaches the horizon."
+        },
+        {
+          "source_id": "STAR_02",
+          "line": 17,
+          "quote": "the composition is structured by his ordered placement of the cypress, steeple, and central nebulae"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_028",
+      "source_unit_id": "STAR_CU_028",
+      "target_unit_id": "STAR_CU_029",
+      "relation_type": "ELABORATES",
+      "description": "땅과 하늘을 연결하는 사이프러스의 시각적 역할은 작품 전체의 균형 잡힌 구성을 이해하는 데 필요한 세부 정보이다.",
+      "explanation_value": "전체 구도에서 사이프러스가 수행하는 구체적인 역할을 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 15,
+          "quote": "serving as a visual link between land and sky."
+        },
+        {
+          "source_id": "STAR_02",
+          "line": 17,
+          "quote": "the composition is structured by his ordered placement of the cypress, steeple, and central nebulae"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_029",
+      "source_unit_id": "STAR_CU_011",
+      "target_unit_id": "STAR_CU_029",
+      "relation_type": "COMPLEMENTS",
+      "description": "질서 있는 주요 요소의 배치와 짧고 두꺼운 붓질에 의한 움직임은 균형과 역동성을 함께 형성하는 서로 다른 회화적 특성이다.",
+      "explanation_value": "역동적인 작품이 동시에 균형 잡힌 구성으로 평가되는 이유를 구도와 붓질의 측면에서 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 17,
+          "quote": "At once balanced and expressive, the composition is structured by his ordered placement of the cypress, steeple, and central nebulae, while his countless short brushstrokes and thickly applied paint set its surface in roiling motion."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_030",
+      "source_unit_id": "STAR_CU_032",
+      "target_unit_id": "STAR_CU_033",
+      "relation_type": "EXEMPLIFIES",
+      "description": "두꺼운 물감층과 리듬감 있는 붓질이 만드는 질감은 풍경을 묘사하면서 물감 자체의 물질성을 드러내는 구체적인 사례이다.",
+      "explanation_value": "물질성이라는 전문적인 회화 개념을 관람객이 실제로 볼 수 있는 표면의 질감으로 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 35,
+          "quote": "Van Gogh applied the paint—mostly deep blues and vivid yellows—in thick layers of rhythmic brushstrokes resulting in a highly textured surface."
+        },
+        {
+          "source_id": "STAR_01",
+          "line": 7,
+          "quote": "color and paint describe a world outside the artwork even as they telegraph their own status as, merely, color and paint."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_031",
+      "source_unit_id": "STAR_CU_032",
+      "target_unit_id": "STAR_CU_034",
+      "relation_type": "SUPPORTS_INTERPRETATION",
+      "description": "선명한 파랑과 노랑, 리듬감 있는 두꺼운 붓질은 MoMA가 설명하는 밤과 자연의 감정적 표현을 이해할 수 있는 회화적 근거이다.",
+      "explanation_value": "감정의 언어라는 추상적인 해석을 구체적인 색채와 물감 처리에 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 7,
+          "quote": "Van Gogh assigned an emotional language to night and nature that took them far from their actual appearances."
+        },
+        {
+          "source_id": "STAR_01",
+          "line": 7,
+          "quote": "Dominated by vivid blues and yellows applied with gestural verve and immediacy"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_032",
+      "source_unit_id": "STAR_CU_009",
+      "target_unit_id": "STAR_CU_035",
+      "relation_type": "SUPPORTS_INTERPRETATION",
+      "description": "소용돌이치는 밤하늘은 앤 템킨이 작가의 상상 속 혼란과 연결하여 해석한 시각적 특징이다. 해당 해석은 가능성으로 제시된 것이다.",
+      "explanation_value": "큐레이터의 정서적 해석이 작품의 어떤 시각적 특징에서 출발하는지 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_05",
+          "line": 55,
+          "quote": "the various blues that Van Gogh uses are positioned into these swirling patterns."
+        },
+        {
+          "source_id": "STAR_05",
+          "line": 57,
+          "quote": "I think one would be able to speculate"
+        },
+        {
+          "source_id": "STAR_05",
+          "line": 57,
+          "quote": "an expression of the turmoil in the artist's own imagination that he's projecting onto that sky."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_033",
+      "source_unit_id": "STAR_CU_035",
+      "target_unit_id": "STAR_CU_034",
+      "relation_type": "ELABORATES",
+      "description": "앤 템킨의 해석은 고흐가 밤과 자연에 감정의 언어를 부여했다는 MoMA의 설명을 구체적인 정서적 해석으로 확장한다.",
+      "explanation_value": "일반적인 감정 표현의 설명을 특정 큐레이터의 해석으로 심화하되 확정된 작가의 심리 상태로 전달하지 않는다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 7,
+          "quote": "Van Gogh assigned an emotional language to night and nature"
+        },
+        {
+          "source_id": "STAR_05",
+          "line": 57,
+          "quote": "an expression of the turmoil in the artist's own imagination"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_034",
+      "source_unit_id": "STAR_CU_036",
+      "target_unit_id": "STAR_CU_032",
+      "relation_type": "PROVIDES_CONTEXT",
+      "description": "밤을 낮보다 생생하고 색채가 풍부하다고 여긴 고흐의 인식은 작품의 선명한 색채와 역동적인 붓질을 이해하는 작가적 맥락이다.",
+      "explanation_value": "밤하늘의 색채 표현을 작가가 밤이라는 대상을 바라보던 관점과 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 17,
+          "quote": "Such a combination of visual contrasts was generated by an artist who found beauty and interest in the night, which, for him, was “much more alive and richly colored than the day.”"
+        },
+        {
+          "source_id": "STAR_04",
+          "line": 35,
+          "quote": "mostly deep blues and vivid yellows"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_035",
+      "source_unit_id": "STAR_CU_038",
+      "target_unit_id": "STAR_CU_039",
+      "relation_type": "EXPLAINS",
+      "description": "파리에서 접한 인상주의, 신인상주의 및 쇠라의 회화는 고흐의 밝아진 색채와 자유로운 붓질에 영향을 주었다.",
+      "explanation_value": "고흐의 회화 기법이 발전한 미술사적 배경을 설명한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_03",
+          "line": 25,
+          "quote": "Inspired by these artists’ harmonious matching of colors, shorter brushstrokes, and liberal use of paint, he brightened his own palette and loosened his brushwork, emphasizing the physical application of paint on the canvas."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_036",
+      "source_unit_id": "STAR_CU_039",
+      "target_unit_id": "STAR_CU_032",
+      "relation_type": "PROVIDES_CONTEXT",
+      "description": "파리 시기에 발전한 밝은 색채, 자유로운 붓질, 물감의 물질적 적용은 별이 빛나는 밤에서 관찰되는 색채와 질감을 이해하는 미술사적 맥락이다.",
+      "explanation_value": "작가의 화풍 변화와 현재 작품의 구체적인 표현 기법을 연결한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "STAR_03",
+          "line": 25,
+          "quote": "he brightened his own palette and loosened his brushwork, emphasizing the physical application of paint on the canvas."
+        },
+        {
+          "source_id": "STAR_04",
+          "line": 35,
+          "quote": "in thick layers of rhythmic brushstrokes resulting in a highly textured surface."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_037",
+      "source_unit_id": "STAR_CU_034",
+      "target_unit_id": "STAR_CU_040",
+      "relation_type": "EXEMPLIFIES",
+      "description": "밤과 자연에 감정의 언어를 부여한 이 작품은 대담한 색채와 표현적 이미지로 정서적 반응을 전달하는 후기인상주의적 특성을 보여준다.",
+      "explanation_value": "후기인상주의라는 미술사적 개념을 현재 감상하는 작품의 표현 방식과 연결한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 7,
+          "quote": "Van Gogh assigned an emotional language to night and nature that took them far from their actual appearances."
+        },
+        {
+          "source_id": "STAR_03",
+          "line": 25,
+          "quote": "expressing their emotional and psychological responses to the world through bold colors and expressive, often symbolic images."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_038",
+      "source_unit_id": "STAR_CU_041",
+      "target_unit_id": "STAR_CU_001",
+      "relation_type": "PROVIDES_CONTEXT",
+      "description": "1888년 프랑스 시골로 돌아가 풍경화를 제작하던 시기는 이후 생레미의 자연 풍경을 바탕으로 작품을 제작한 활동의 배경이다.",
+      "explanation_value": "별이 빛나는 밤의 제작을 고흐의 지속적인 자연 및 풍경 탐구라는 맥락에서 이해하게 한다.",
+      "grounding_type": "SUPPORTED_INFERENCE",
+      "evidence": [
+        {
+          "source_id": "STAR_03",
+          "line": 27,
+          "quote": "By 1888, van Gogh had returned to the French countryside, where he would remain until his death."
+        },
+        {
+          "source_id": "STAR_03",
+          "line": 27,
+          "quote": "he concentrated on painting landscapes, portraits (of himself and others), domestic interiors, and still lifes full of personal symbolism."
+        },
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "Inspired by the view from his window at the Saint-Paul-de-Mausole asylum in Saint-Rémy"
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_039",
+      "source_unit_id": "STAR_CU_042",
+      "target_unit_id": "STAR_CU_001",
+      "relation_type": "PROVIDES_CONTEXT",
+      "description": "정신적 어려움에 대한 치료를 위해 요양원에 머물렀다는 사실은 고흐가 해당 장소에서 풍경을 관찰하고 작품을 제작한 생활상의 배경이다.",
+      "explanation_value": "작품의 제작 장소와 당시 작가의 상황을 설명하되 정신적 어려움을 특정 표현 기법의 직접적인 원인으로 단정하지 않는다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "where the artist spent twelve months in 1889–90 seeking reprieve from his mental illnesses"
+        },
+        {
+          "source_id": "STAR_02",
+          "line": 11,
+          "quote": "where he sought respite from his emotional suffering while continuing to make art."
+        }
+      ]
+    },
+    {
+      "id": "STAR_REL_040",
+      "source_unit_id": "STAR_CU_002",
+      "target_unit_id": "STAR_CU_042",
+      "relation_type": "ELABORATES",
+      "description": "1889년 6월 중순이라는 제작 시기는 고흐가 생레미 요양원에 머물던 기간 중 작품이 제작되었음을 구체화한다.",
+      "explanation_value": "작가의 생애에 관한 일반적인 배경을 현재 작품의 구체적인 제작 시점과 연결한다.",
+      "grounding_type": "EXPLICIT",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "where the artist spent twelve months in 1889–90 seeking reprieve from his mental illnesses, The Starry Night(made in mid-June)"
+        }
+      ]
+    }
+  ]
+}
