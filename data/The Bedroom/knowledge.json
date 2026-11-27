@@ -1,0 +1,815 @@
+{
+  "schema_version": "1.0",
+  "review_status": "draft_pending_human_review",
+  "artwork_id": "bedroom",
+  "sources": {
+    "BED_01": "Van Gogh Museum — The Bedroom",
+    "BED_02": "Vincent van Gogh, Letter 705 to Theo, 16 October 1888",
+    "BED_03": "Vincent van Gogh, Letter 706 to Paul Gauguin, 17 October 1888",
+    "BED_04": "Art Institute of Chicago — Van Gogh’s Bedrooms"
+  },
+  "content_units": [
+    {
+      "id": "BED_CU_001",
+      "content": "밝은 색채로 완전한 휴식이나 수면을 표현하고자 했다.",
+      "categories": [
+        "MEANING"
+      ],
+      "claim_type": "artist_intention",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "While he was in Arles, Van Gogh made this painting of his bedroom in the Yellow House. He prepared the room himself with simple furniture and with his own work on the wall. The bright colours were meant to express absolute ‘repose’ or ‘sleep’. Research shows that the strongly contrasting colours we see in the work today are the result of discolouration over the years. The walls and doors, for instance, were originally purple rather than blue. The apparently odd angle of the rear wall, meanwhile, is not a mistake on Van Gogh’s part – the corner really was skewed. The rules of perspective seem not to have been accurately applied throughout the painting, but this was a deliberate choice. Vincent told Theo in a letter that he had deliberately ‘flattened’ the interior and left out the shadows so that his picture would resemble a Japanese print. Van Gogh was very pleased with the painting: ‘When I saw my canvases again after my illness, what seemed to me the best was the bedroom.’"
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_002",
+      "content": "그림을 보는 사람의 정신 또는 상상력이 쉬기를 바랐다.",
+      "categories": [
+        "MEANING"
+      ],
+      "claim_type": "artist_intention",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 17,
+          "quote": "This time it’s simply my bedroom, but the colour has to do the job here, and through its being simplified by giving a grander style to things, to be suggestive here of rest or of sleep in general. In short, looking at the painting should rest the mind, or rather, the imagination."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_003",
+      "content": "색채의 역할을 강조하고 사물의 형태를 단순화해 휴식을 표현하려 했다.",
+      "categories": [
+        "TECHNIQUE",
+        "MEANING"
+      ],
+      "claim_type": "artist_intention",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 17,
+          "quote": "This time it’s simply my bedroom, but the colour has to do the job here, and through its being simplified by giving a grander style to things, to be suggestive here of rest or of sleep in general. In short, looking at the painting should rest the mind, or rather, the imagination."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_004",
+      "content": "편지에서 벽은 연보라색, 바닥은 붉은 타일로 묘사했다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 19,
+          "quote": "The walls are of a pale violet. The floor — is of red tiles."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_005",
+      "content": "침대 틀과 의자는 버터 같은 노란색으로 묘사했다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 21,
+          "quote": "The bedstead and the chairs are fresh butter yellow."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_006",
+      "content": "시트와 베개는 밝은 레몬빛 녹색으로 묘사했다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 23,
+          "quote": "The sheet and the pillows very bright lemon green."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_007",
+      "content": "이불은 선홍색으로 묘사했다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 25,
+          "quote": "The blanket scarlet red."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_008",
+      "content": "창문은 녹색으로 묘사했다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 27,
+          "quote": "The window green."
+        },
+        {
+          "source_id": "BED_03",
+          "line": 55,
+          "quote": "In flat tints, but coarsely brushed in full impasto, the walls pale lilac, the floor in a broken and faded red, the chairs and the bed chrome yellow, the pillows and the sheet very pale lemon green, the blanket blood-red, the dressing-table orange, the washbasin blue, the window green. I had wished to express utter repose with all these very different tones, you see, among which the only white is the little note given by the mirror with a black frame (to cram in the fourth pair of complementaries as well)."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_009",
+      "content": "화장대는 주황색, 세숫대야는 파란색으로 묘사했다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 29,
+          "quote": "The dressing table orange, the basin blue."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_010",
+      "content": "문은 라일락색으로 묘사했다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 31,
+          "quote": "The doors lilac."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_011",
+      "content": "가구의 견고한 형태로 흔들리지 않는 휴식을 표현하려 했다.",
+      "categories": [
+        "VISUAL",
+        "MEANING"
+      ],
+      "claim_type": "artist_intention",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 35,
+          "quote": "The solidity of the furniture should also now express unshakeable repose."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_012",
+      "content": "고갱에게 보낸 편지에서 보색 관계를 활용했다고 설명했다.",
+      "categories": [
+        "TECHNIQUE"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_03",
+          "line": 55,
+          "quote": "In flat tints, but coarsely brushed in full impasto, the walls pale lilac, the floor in a broken and faded red, the chairs and the bed chrome yellow, the pillows and the sheet very pale lemon green, the blanket blood-red, the dressing-table orange, the washbasin blue, the window green. I had wished to express utter repose with all these very different tones, you see, among which the only white is the little note given by the mirror with a black frame (to cram in the fourth pair of complementaries as well)."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_013",
+      "content": "뒤쪽 벽의 비스듬한 각도는 실제 방 구조를 반영한다.",
+      "categories": [
+        "VISUAL",
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "While he was in Arles, Van Gogh made this painting of his bedroom in the Yellow House. He prepared the room himself with simple furniture and with his own work on the wall. The bright colours were meant to express absolute ‘repose’ or ‘sleep’. Research shows that the strongly contrasting colours we see in the work today are the result of discolouration over the years. The walls and doors, for instance, were originally purple rather than blue. The apparently odd angle of the rear wall, meanwhile, is not a mistake on Van Gogh’s part – the corner really was skewed. The rules of perspective seem not to have been accurately applied throughout the painting, but this was a deliberate choice. Vincent told Theo in a letter that he had deliberately ‘flattened’ the interior and left out the shadows so that his picture would resemble a Japanese print. Van Gogh was very pleased with the painting: ‘When I saw my canvases again after my illness, what seemed to me the best was the bedroom.’"
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_014",
+      "content": "일반적인 원근법을 정확히 따르지 않은 것은 의도적인 선택이었다.",
+      "categories": [
+        "TECHNIQUE"
+      ],
+      "claim_type": "artist_intention",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "While he was in Arles, Van Gogh made this painting of his bedroom in the Yellow House. He prepared the room himself with simple furniture and with his own work on the wall. The bright colours were meant to express absolute ‘repose’ or ‘sleep’. Research shows that the strongly contrasting colours we see in the work today are the result of discolouration over the years. The walls and doors, for instance, were originally purple rather than blue. The apparently odd angle of the rear wall, meanwhile, is not a mistake on Van Gogh’s part – the corner really was skewed. The rules of perspective seem not to have been accurately applied throughout the painting, but this was a deliberate choice. Vincent told Theo in a letter that he had deliberately ‘flattened’ the interior and left out the shadows so that his picture would resemble a Japanese print. Van Gogh was very pleased with the painting: ‘When I saw my canvases again after my illness, what seemed to me the best was the bedroom.’"
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_015",
+      "content": "그림자를 생략하고 평평한 색면으로 일본 판화와 유사한 표현을 추구했다.",
+      "categories": [
+        "TECHNIQUE",
+        "MEANING"
+      ],
+      "claim_type": "artist_intention",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 43,
+          "quote": "I’ll work on it again all day tomorrow, but you can see how simple the idea is. The shadows and cast shadows are removed; it’s coloured in flat, plain tints like Japanese prints."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_016",
+      "content": "고갱에게 평평한 색조와 거칠고 두꺼운 물감 처리를 함께 사용했다고 설명했다.",
+      "categories": [
+        "TECHNIQUE"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_03",
+          "line": 55,
+          "quote": "In flat tints, but coarsely brushed in full impasto, the walls pale lilac, the floor in a broken and faded red, the chairs and the bed chrome yellow, the pillows and the sheet very pale lemon green, the blanket blood-red, the dressing-table orange, the washbasin blue, the window green. I had wished to express utter repose with all these very different tones, you see, among which the only white is the little note given by the mirror with a black frame (to cram in the fourth pair of complementaries as well)."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_017",
+      "content": "고갱에게 쇠라와 같은 단순함을 언급했다.",
+      "categories": [
+        "TECHNIQUE",
+        "BACKGROUND"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_03",
+          "line": 53,
+          "quote": "With a simplicity à la Seurat."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_018",
+      "content": "초판 침대의 평평한 물감 처리는 일본 판화를 연상시킨다.",
+      "categories": [
+        "TECHNIQUE",
+        "VISUAL"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 69,
+          "quote": "The bed in the first version is strongly reminiscent of Japanese prints, with a much flatter paint application. The red and dark-blue outline of the bed frame enhances the wooden boards and creates a greater contrast between the bright-yellow frame and the pinkish-purple floor."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_019",
+      "content": "침대의 붉은색과 짙은 파란색 윤곽은 나무판을 강조하고 바닥과의 대비를 높인다.",
+      "categories": [
+        "TECHNIQUE",
+        "VISUAL"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 69,
+          "quote": "The bed in the first version is strongly reminiscent of Japanese prints, with a much flatter paint application. The red and dark-blue outline of the bed frame enhances the wooden boards and creates a greater contrast between the bright-yellow frame and the pinkish-purple floor."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_020",
+      "content": "고흐는 소박한 가구와 자신의 작품으로 직접 방을 꾸몄다.",
+      "categories": [
+        "VISUAL",
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "While he was in Arles, Van Gogh made this painting of his bedroom in the Yellow House. He prepared the room himself with simple furniture and with his own work on the wall. The bright colours were meant to express absolute ‘repose’ or ‘sleep’. Research shows that the strongly contrasting colours we see in the work today are the result of discolouration over the years. The walls and doors, for instance, were originally purple rather than blue. The apparently odd angle of the rear wall, meanwhile, is not a mistake on Van Gogh’s part – the corner really was skewed. The rules of perspective seem not to have been accurately applied throughout the painting, but this was a deliberate choice. Vincent told Theo in a letter that he had deliberately ‘flattened’ the interior and left out the shadows so that his picture would resemble a Japanese print. Van Gogh was very pleased with the painting: ‘When I saw my canvases again after my illness, what seemed to me the best was the bedroom.’"
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_021",
+      "content": "벽에는 초상화, 거울, 수건, 옷이 있다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 37,
+          "quote": "Portraits on the wall, and a mirror and a hand-towel and some clothes."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_022",
+      "content": "의자 틀에는 두 가지 이상의 노란색과 구조를 강조하는 윤곽선이 사용되었다.",
+      "categories": [
+        "TECHNIQUE",
+        "VISUAL"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 65,
+          "quote": "In the three Bedrooms, the different treatments of the chairs are not inconsequential. For each version, Van Gogh used at least two distinct shades of yellow for the frames of the chairs, and he painted outlines to reinforce their structures. The first version is painted in mostly flat tints except for the back of the chair, which the artist first painted with a light-green layer and contrasting bright-blue outlines."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_023",
+      "content": "초판 의자는 대체로 평평한 색면이며 등받이에는 연녹색 바탕과 밝은 파란 윤곽이 사용되었다.",
+      "categories": [
+        "TECHNIQUE",
+        "VISUAL"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 65,
+          "quote": "In the three Bedrooms, the different treatments of the chairs are not inconsequential. For each version, Van Gogh used at least two distinct shades of yellow for the frames of the chairs, and he painted outlines to reinforce their structures. The first version is painted in mostly flat tints except for the back of the chair, which the artist first painted with a light-green layer and contrasting bright-blue outlines."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_024",
+      "content": "침대 틀과 베개, 시트의 윤곽을 먼저 그린 뒤 내부를 채웠다.",
+      "categories": [
+        "TECHNIQUE"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 67,
+          "quote": "Of all the items in the Bedroom paintings, the bed itself, with its sturdy wooden frame and bright red blanket appears the most consistent. And indeed the artist did paint all the elements of the bed in the same order across each canvas; he first outlined the frame, pillows, and sheets and then filled in his outlines. Still he did not paint them to look the same."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_025",
+      "content": "창틀의 각도 때문에 초판의 창문은 거의 닫힌 것처럼 보인다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 71,
+          "quote": "In the first Bedroom the window seems to be almost completely shut due to the angle of the window frames."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_026",
+      "content": "현재 파란색으로 보이는 벽과 문은 원래 보라색이었다.",
+      "categories": [
+        "VISUAL",
+        "TECHNIQUE"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "While he was in Arles, Van Gogh made this painting of his bedroom in the Yellow House. He prepared the room himself with simple furniture and with his own work on the wall. The bright colours were meant to express absolute ‘repose’ or ‘sleep’. Research shows that the strongly contrasting colours we see in the work today are the result of discolouration over the years. The walls and doors, for instance, were originally purple rather than blue. The apparently odd angle of the rear wall, meanwhile, is not a mistake on Van Gogh’s part – the corner really was skewed. The rules of perspective seem not to have been accurately applied throughout the painting, but this was a deliberate choice. Vincent told Theo in a letter that he had deliberately ‘flattened’ the interior and left out the shadows so that his picture would resemble a Japanese print. Van Gogh was very pleased with the painting: ‘When I saw my canvases again after my illness, what seemed to me the best was the bedroom.’"
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_027",
+      "content": "오늘날의 강한 색채 대비에는 시간에 따른 변색이 영향을 주었다.",
+      "categories": [
+        "TECHNIQUE"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "While he was in Arles, Van Gogh made this painting of his bedroom in the Yellow House. He prepared the room himself with simple furniture and with his own work on the wall. The bright colours were meant to express absolute ‘repose’ or ‘sleep’. Research shows that the strongly contrasting colours we see in the work today are the result of discolouration over the years. The walls and doors, for instance, were originally purple rather than blue. The apparently odd angle of the rear wall, meanwhile, is not a mistake on Van Gogh’s part – the corner really was skewed. The rules of perspective seem not to have been accurately applied throughout the painting, but this was a deliberate choice. Vincent told Theo in a letter that he had deliberately ‘flattened’ the interior and left out the shadows so that his picture would resemble a Japanese print. Van Gogh was very pleased with the painting: ‘When I saw my canvases again after my illness, what seemed to me the best was the bedroom.’"
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_028",
+      "content": "초판 창틀에는 에메랄드 그린 안료가 사용되었다.",
+      "categories": [
+        "TECHNIQUE"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 73,
+          "quote": "Thanks to advanced technology called scanning macro-X-ray fluorescence spectroscopy (a type of X-ray that scans the surface to identify the unique elemental makeup of pigments), we also now know that Van Gogh used different pigments for the various windows. For the first Bedroom, Van Gogh painted the window frame with emerald green."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_029",
+      "content": "현재 암스테르담 초판 바닥은 분홍빛에서 보라색 계열이며 녹색 윤곽이 보인다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 75,
+          "quote": "In the paintings we see today, the floor of the Amsterdam version is dominated by pinkish to purple colors with green outlines."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_030",
+      "content": "초판 바닥에는 담황갈색 바탕 위에 여러 붉은 안료를 덧칠했다.",
+      "categories": [
+        "TECHNIQUE"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 77,
+          "quote": "Originally, Van Gogh painted different base layers for the floors: buff-colored for the first. He then added another layer of various red pigments, which have altered at different rates over time. The different mix of original colors—as well as different brushstrokes and areas where paint has been lost (which started in Van Gogh's lifetime)—caused the floors to look different today than they originally appeared."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_031",
+      "content": "붉은 안료의 변화 속도 차이와 붓질 및 물감 손실이 현재 바닥 모습에 영향을 주었다.",
+      "categories": [
+        "TECHNIQUE"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 77,
+          "quote": "Originally, Van Gogh painted different base layers for the floors: buff-colored for the first. He then added another layer of various red pigments, which have altered at different rates over time. The different mix of original colors—as well as different brushstrokes and areas where paint has been lost (which started in Van Gogh's lifetime)—caused the floors to look different today than they originally appeared."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_032",
+      "content": "아를의 노란 집에 있는 자신의 침실을 그렸다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "While he was in Arles, Van Gogh made this painting of his bedroom in the Yellow House. He prepared the room himself with simple furniture and with his own work on the wall. The bright colours were meant to express absolute ‘repose’ or ‘sleep’. Research shows that the strongly contrasting colours we see in the work today are the result of discolouration over the years. The walls and doors, for instance, were originally purple rather than blue. The apparently odd angle of the rear wall, meanwhile, is not a mistake on Van Gogh’s part – the corner really was skewed. The rules of perspective seem not to have been accurately applied throughout the painting, but this was a deliberate choice. Vincent told Theo in a letter that he had deliberately ‘flattened’ the interior and left out the shadows so that his picture would resemble a Japanese print. Van Gogh was very pleased with the painting: ‘When I saw my canvases again after my illness, what seemed to me the best was the bedroom.’"
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_033",
+      "content": "시카고 미술관은 노란 집을 고흐가 처음으로 진정한 집처럼 느낀 장소로 설명한다.",
+      "categories": [
+        "BACKGROUND",
+        "MEANING"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 59,
+          "quote": "Van Gogh painted his first Bedroom just after moving into his beloved “Yellow House”—the first place that truly felt like home—in Arles, France, in 1888. He was very pleased with the painting and delighted that artist Paul Gauguin, who moved in a week later, admired it as well. Full of colors inspired by the theories of Neo-Impressionist painter Georges Seurat, this painting is a very faithful depiction of Van Gogh’s bedroom at the time, down to the portraits that appear on the wall. It is now in the collection of the Van Gogh Museum in Amsterdam."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_034",
+      "content": "고갱은 약 일주일 뒤 입주했고 작품을 좋게 평가했다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 59,
+          "quote": "Van Gogh painted his first Bedroom just after moving into his beloved “Yellow House”—the first place that truly felt like home—in Arles, France, in 1888. He was very pleased with the painting and delighted that artist Paul Gauguin, who moved in a week later, admired it as well. Full of colors inspired by the theories of Neo-Impressionist painter Georges Seurat, this painting is a very faithful depiction of Van Gogh’s bedroom at the time, down to the portraits that appear on the wall. It is now in the collection of the Van Gogh Museum in Amsterdam."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_035",
+      "content": "벽의 초상화는 외젠 보흐와 폴 외젠 밀리에를 그린 것이다.",
+      "categories": [
+        "VISUAL",
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 79,
+          "quote": "In the first Bedroom, Van Gogh—full of excitement at just having moved into his Yellow House—faithfully recorded the portraits that hung on the wall of his new bedroom; one is of Eugène Boch and the other is Lieutenant Paul-Eugène Milliet. The artist hoped to develop a community of artists in Arles, and these portraits embody the spirit of camaraderie he hoped would fill his home."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_036",
+      "content": "시카고 미술관은 초상화에 아를에서 예술가 공동체를 만들려던 기대와 동료 의식이 담겼다고 해석한다.",
+      "categories": [
+        "BACKGROUND",
+        "MEANING"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 79,
+          "quote": "In the first Bedroom, Van Gogh—full of excitement at just having moved into his Yellow House—faithfully recorded the portraits that hung on the wall of his new bedroom; one is of Eugène Boch and the other is Lieutenant Paul-Eugène Milliet. The artist hoped to develop a community of artists in Arles, and these portraits embody the spirit of camaraderie he hoped would fill his home."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_037",
+      "content": "고흐는 눈의 피로로 이틀 반을 쉬고 외출을 삼가며 침실을 그렸다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_03",
+          "line": 49,
+          "quote": "Look here, I wrote to you the other day that my vision was strangely tired. Well, I rested for two and a half days, and then I got back to work. But not yet daring to go outside, I did, for my decoration once again, a no. 30 canvas of my bedroom with the whitewood furniture that you know."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_038",
+      "content": "고흐는 강제로 쉬어야 했던 경험에 대한 대응으로 작품을 설명했다.",
+      "categories": [
+        "BACKGROUND",
+        "MEANING"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_02",
+          "line": 41,
+          "quote": "This to take my revenge for the enforced rest that I was obliged to take."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_039",
+      "content": "고흐는 병을 앓은 뒤 다시 본 자신의 그림 중 침실을 가장 좋게 평가했다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "BED_01",
+          "line": 11,
+          "quote": "While he was in Arles, Van Gogh made this painting of his bedroom in the Yellow House. He prepared the room himself with simple furniture and with his own work on the wall. The bright colours were meant to express absolute ‘repose’ or ‘sleep’. Research shows that the strongly contrasting colours we see in the work today are the result of discolouration over the years. The walls and doors, for instance, were originally purple rather than blue. The apparently odd angle of the rear wall, meanwhile, is not a mistake on Van Gogh’s part – the corner really was skewed. The rules of perspective seem not to have been accurately applied throughout the painting, but this was a deliberate choice. Vincent told Theo in a letter that he had deliberately ‘flattened’ the interior and left out the shadows so that his picture would resemble a Japanese print. Van Gogh was very pleased with the painting: ‘When I saw my canvases again after my illness, what seemed to me the best was the bedroom.’"
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_040",
+      "content": "노란 집의 침수로 초판이 손상되었다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "later_context",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 61,
+          "quote": "Unfortunately, flooding in the Yellow House later that year caused damage to some of the artist’s canvases, including the first Bedroom. While at an asylum in Saint-Rémy, Van Gogh asked his brother Theo to have the painting reinforced with a lining, but Theo suggested that Van Gogh paint a copy before such a risky procedure be attempted. In early September 1889 Van Gogh finally felt he was up to the task, writing to Theo: “I’ve redone the canvas of the Bedroom. That study is certainly one of the best.” Identical in scale and yet distinct from the original, this second version is now one of the icons of the Art Institute’s permanent collection."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_041",
+      "content": "테오는 보강 작업 전에 복제본을 그리도록 권했고 1889년 9월 초 두 번째 버전이 제작되었다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "later_context",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 61,
+          "quote": "Unfortunately, flooding in the Yellow House later that year caused damage to some of the artist’s canvases, including the first Bedroom. While at an asylum in Saint-Rémy, Van Gogh asked his brother Theo to have the painting reinforced with a lining, but Theo suggested that Van Gogh paint a copy before such a risky procedure be attempted. In early September 1889 Van Gogh finally felt he was up to the task, writing to Theo: “I’ve redone the canvas of the Bedroom. That study is certainly one of the best.” Identical in scale and yet distinct from the original, this second version is now one of the icons of the Art Institute’s permanent collection."
+        }
+      ]
+    },
+    {
+      "id": "BED_CU_042",
+      "content": "두 번째 버전은 시카고 미술관에 소장되어 있다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "later_context",
+      "evidence": [
+        {
+          "source_id": "BED_04",
+          "line": 61,
+          "quote": "Unfortunately, flooding in the Yellow House later that year caused damage to some of the artist’s canvases, including the first Bedroom. While at an asylum in Saint-Rémy, Van Gogh asked his brother Theo to have the painting reinforced with a lining, but Theo suggested that Van Gogh paint a copy before such a risky procedure be attempted. In early September 1889 Van Gogh finally felt he was up to the task, writing to Theo: “I’ve redone the canvas of the Bedroom. That study is certainly one of the best.” Identical in scale and yet distinct from the original, this second version is now one of the icons of the Art Institute’s permanent collection."
+        }
+      ]
+    }
+  ],
+  "knowledge_items": [
+    {
+      "id": "BED_KI_001",
+      "topic": "색채와 휴식",
+      "visual_anchors": [
+        "침대",
+        "의자",
+        "벽",
+        "이불"
+      ],
+      "unit_ids": [
+        "BED_CU_001",
+        "BED_CU_002",
+        "BED_CU_003",
+        "BED_CU_004",
+        "BED_CU_005",
+        "BED_CU_006",
+        "BED_CU_007",
+        "BED_CU_008",
+        "BED_CU_009",
+        "BED_CU_010",
+        "BED_CU_011",
+        "BED_CU_012"
+      ]
+    },
+    {
+      "id": "BED_KI_002",
+      "topic": "공간과 일본 판화",
+      "visual_anchors": [
+        "뒤쪽 벽",
+        "가구 윤곽",
+        "그림자"
+      ],
+      "unit_ids": [
+        "BED_CU_013",
+        "BED_CU_014",
+        "BED_CU_015",
+        "BED_CU_016",
+        "BED_CU_017",
+        "BED_CU_018",
+        "BED_CU_019"
+      ]
+    },
+    {
+      "id": "BED_KI_003",
+      "topic": "가구와 실내",
+      "visual_anchors": [
+        "침대",
+        "의자",
+        "창문",
+        "벽"
+      ],
+      "unit_ids": [
+        "BED_CU_020",
+        "BED_CU_021",
+        "BED_CU_022",
+        "BED_CU_023",
+        "BED_CU_024",
+        "BED_CU_025"
+      ]
+    },
+    {
+      "id": "BED_KI_004",
+      "topic": "변색과 안료",
+      "visual_anchors": [
+        "벽",
+        "문",
+        "바닥",
+        "창틀"
+      ],
+      "unit_ids": [
+        "BED_CU_026",
+        "BED_CU_027",
+        "BED_CU_028",
+        "BED_CU_029",
+        "BED_CU_030",
+        "BED_CU_031"
+      ]
+    },
+    {
+      "id": "BED_KI_005",
+      "topic": "노란 집과 공동체",
+      "visual_anchors": [
+        "벽의 초상화",
+        "가구"
+      ],
+      "unit_ids": [
+        "BED_CU_032",
+        "BED_CU_033",
+        "BED_CU_034",
+        "BED_CU_035",
+        "BED_CU_036"
+      ]
+    },
+    {
+      "id": "BED_KI_006",
+      "topic": "제작 경험과 후속 작품",
+      "visual_anchors": [
+        "침실 전체"
+      ],
+      "unit_ids": [
+        "BED_CU_037",
+        "BED_CU_038",
+        "BED_CU_039",
+        "BED_CU_040",
+        "BED_CU_041",
+        "BED_CU_042"
+      ]
+    }
+  ]
+}

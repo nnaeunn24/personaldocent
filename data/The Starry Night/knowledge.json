@@ -1,0 +1,825 @@
+{
+  "schema_version": "1.0",
+  "review_status": "draft_pending_human_review",
+  "artwork_id": "starry_night",
+  "sources": {
+    "STAR_01": "MoMA — About the Work",
+    "STAR_02": "MoMA — Observation and Imagination in The Starry Night",
+    "STAR_03": "MoMA — Vincent van Gogh: Emotion, Vision, and A Singular Style",
+    "STAR_04": "MoMA — Audio Description",
+    "STAR_05": "MoMA — Audio Description, Curator Ann Temkin"
+  },
+  "content_units": [
+    {
+      "id": "STAR_CU_001",
+      "content": "생레미 생폴드모졸 요양원 창밖 풍경에서 영감을 얻었다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "In creating this image of the night sky—dominated by the bright moon at right and Venus at center left—van Gogh heralded modern painting’s new embrace of mood, expression, symbol, and sentiment. Inspired by the view from his window at the Saint-Paul-de-Mausole asylum in Saint-Rémy, in southern France, where the artist spent twelve months in 1889–90 seeking reprieve from his mental illnesses, The Starry Night(made in mid-June) is both an exercise in observation and a clear departure from it. The vision took place at night, yet the painting, among hundreds of artworks van Gogh made that year, was created in several sessions during the day, under entirely different atmospheric conditions. The picturesque village nestled below the hills was based on other views—it could not be seen from his window—and the cypress at left appears much closer than it was. And although certain features of the sky have been reconstructed as observed, the artist altered celestial shapes and added a sense of glow."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_002",
+      "content": "1889년 6월 중순에 제작되었다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "In creating this image of the night sky—dominated by the bright moon at right and Venus at center left—van Gogh heralded modern painting’s new embrace of mood, expression, symbol, and sentiment. Inspired by the view from his window at the Saint-Paul-de-Mausole asylum in Saint-Rémy, in southern France, where the artist spent twelve months in 1889–90 seeking reprieve from his mental illnesses, The Starry Night(made in mid-June) is both an exercise in observation and a clear departure from it. The vision took place at night, yet the painting, among hundreds of artworks van Gogh made that year, was created in several sessions during the day, under entirely different atmospheric conditions. The picturesque village nestled below the hills was based on other views—it could not be seen from his window—and the cypress at left appears much closer than it was. And although certain features of the sky have been reconstructed as observed, the artist altered celestial shapes and added a sense of glow."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_003",
+      "content": "밤에 본 풍경을 낮 동안 여러 차례에 걸쳐 그렸다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "In creating this image of the night sky—dominated by the bright moon at right and Venus at center left—van Gogh heralded modern painting’s new embrace of mood, expression, symbol, and sentiment. Inspired by the view from his window at the Saint-Paul-de-Mausole asylum in Saint-Rémy, in southern France, where the artist spent twelve months in 1889–90 seeking reprieve from his mental illnesses, The Starry Night(made in mid-June) is both an exercise in observation and a clear departure from it. The vision took place at night, yet the painting, among hundreds of artworks van Gogh made that year, was created in several sessions during the day, under entirely different atmospheric conditions. The picturesque village nestled below the hills was based on other views—it could not be seen from his window—and the cypress at left appears much closer than it was. And although certain features of the sky have been reconstructed as observed, the artist altered celestial shapes and added a sense of glow."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_004",
+      "content": "언덕 아래 마을은 창문에서 보이지 않는 다른 풍경을 바탕으로 했다.",
+      "categories": [
+        "VISUAL",
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "In creating this image of the night sky—dominated by the bright moon at right and Venus at center left—van Gogh heralded modern painting’s new embrace of mood, expression, symbol, and sentiment. Inspired by the view from his window at the Saint-Paul-de-Mausole asylum in Saint-Rémy, in southern France, where the artist spent twelve months in 1889–90 seeking reprieve from his mental illnesses, The Starry Night(made in mid-June) is both an exercise in observation and a clear departure from it. The vision took place at night, yet the painting, among hundreds of artworks van Gogh made that year, was created in several sessions during the day, under entirely different atmospheric conditions. The picturesque village nestled below the hills was based on other views—it could not be seen from his window—and the cypress at left appears much closer than it was. And although certain features of the sky have been reconstructed as observed, the artist altered celestial shapes and added a sense of glow."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_005",
+      "content": "왼쪽 사이프러스는 실제보다 가까이 표현되었다.",
+      "categories": [
+        "VISUAL",
+        "TECHNIQUE"
+      ],
+      "claim_type": "fact",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "In creating this image of the night sky—dominated by the bright moon at right and Venus at center left—van Gogh heralded modern painting’s new embrace of mood, expression, symbol, and sentiment. Inspired by the view from his window at the Saint-Paul-de-Mausole asylum in Saint-Rémy, in southern France, where the artist spent twelve months in 1889–90 seeking reprieve from his mental illnesses, The Starry Night(made in mid-June) is both an exercise in observation and a clear departure from it. The vision took place at night, yet the painting, among hundreds of artworks van Gogh made that year, was created in several sessions during the day, under entirely different atmospheric conditions. The picturesque village nestled below the hills was based on other views—it could not be seen from his window—and the cypress at left appears much closer than it was. And although certain features of the sky have been reconstructed as observed, the artist altered celestial shapes and added a sense of glow."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_006",
+      "content": "천체의 형태를 변형하고 빛나는 효과를 더했다.",
+      "categories": [
+        "VISUAL",
+        "TECHNIQUE"
+      ],
+      "claim_type": "fact",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "In creating this image of the night sky—dominated by the bright moon at right and Venus at center left—van Gogh heralded modern painting’s new embrace of mood, expression, symbol, and sentiment. Inspired by the view from his window at the Saint-Paul-de-Mausole asylum in Saint-Rémy, in southern France, where the artist spent twelve months in 1889–90 seeking reprieve from his mental illnesses, The Starry Night(made in mid-June) is both an exercise in observation and a clear departure from it. The vision took place at night, yet the painting, among hundreds of artworks van Gogh made that year, was created in several sessions during the day, under entirely different atmospheric conditions. The picturesque village nestled below the hills was based on other views—it could not be seen from his window—and the cypress at left appears much closer than it was. And although certain features of the sky have been reconstructed as observed, the artist altered celestial shapes and added a sense of glow."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_007",
+      "content": "MoMA는 관찰과 상상, 기억, 감정이 결합된 작품으로 설명한다.",
+      "categories": [
+        "BACKGROUND",
+        "MEANING"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 17,
+          "quote": "The Starry Night is based on van Gogh’s direct observations as well as his imagination, memories, and emotions. The steeple of the church, for example, resembles those common in his native Holland, not in France. The whirling forms in the sky, on the other hand, match published astronomical observations of clouds of dust and gas known as nebulae. At once balanced and expressive, the composition is structured by his ordered placement of the cypress, steeple, and central nebulae, while his countless short brushstrokes and thickly applied paint set its surface in roiling motion. Such a combination of visual contrasts was generated by an artist who found beauty and interest in the night, which, for him, was “much more alive and richly colored than the day.”"
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_008",
+      "content": "고흐는 테오에게 해 뜨기 전 창밖에서 크게 보이는 샛별을 관찰했다고 썼다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "artist_description",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 11,
+          "quote": "“This morning I saw the countryside from my window a long time before sunrise, with nothing but the morning star, which looked very big,” wrote van Gogh to his brother Theo, describing his inspiration for one of his best-known paintings, The Starry Night. The window to which he refers was in the Saint-Paul asylum in Saint-Rémy, in southern France, where he sought respite from his emotional suffering while continuing to make art."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_009",
+      "content": "밤하늘에는 파도처럼 이어지는 강한 소용돌이 형태가 보인다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 13,
+          "quote": "This mid-scale, oil-on-canvas painting is dominated by a moon- and star-filled night sky. It takes up three-quarters of the picture plane and appears turbulent, even agitated, with intensely swirling patterns that seem to roll across its surface like waves. It is pocked with bright orbs—including the crescent moon to the far right, and Venus, the morning star, to the left of center—surrounded by concentric circles of radiant white and yellow light."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_010",
+      "content": "중앙의 밝은 파란 띠는 옆으로 누운 두 개의 S자처럼 이어진다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 45,
+          "quote": "In the middle of the sky, swirling light blue bands—like two letter “S’s” on their sides— tumble in horizontally from the left of the canvas, suggesting a tempestuous wind. Below, a lighter, denser band of clouds lines the horizon. Between these layers, is a golden orb surrounded by a white halo of paint that may be Venus, which is known as the morning star."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_011",
+      "content": "짧고 두꺼운 수많은 붓질이 하늘에 움직임을 만든다.",
+      "categories": [
+        "VISUAL",
+        "TECHNIQUE"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 39,
+          "quote": "Beginning at the top, the turbulent sky is painted in hundreds of short, thickly applied brushstrokes, which give the appearance of roiling movement. Towards the top of the canvas the sky is a dark lapis blue, which gets lighter closer to the horizon."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_012",
+      "content": "하늘은 위쪽의 짙은 파란색에서 지평선 쪽으로 밝아진다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 39,
+          "quote": "Beginning at the top, the turbulent sky is painted in hundreds of short, thickly applied brushstrokes, which give the appearance of roiling movement. Towards the top of the canvas the sky is a dark lapis blue, which gets lighter closer to the horizon."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_013",
+      "content": "지평선에는 밝고 밀집된 구름 띠가 보인다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 45,
+          "quote": "In the middle of the sky, swirling light blue bands—like two letter “S’s” on their sides— tumble in horizontally from the left of the canvas, suggesting a tempestuous wind. Below, a lighter, denser band of clouds lines the horizon. Between these layers, is a golden orb surrounded by a white halo of paint that may be Venus, which is known as the morning star."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_014",
+      "content": "역동적인 하늘과 조용한 마을이 대비된다.",
+      "categories": [
+        "VISUAL",
+        "MEANING"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 37,
+          "quote": "The scene is dominated by a crescent moon and starry night sky, which fill the upper two thirds of the canvas. The sky is the most dynamic part of the painting. It stands in contrast to a quiet village, nestled below treetops and rolling hills, in the lower third of the painting. On the far left side, a large cypress tree in the foreground commands attention."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_015",
+      "content": "오른쪽에는 초승달이 있고 밝은 천체 주변에는 흰색과 노란색 동심원이 보인다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 13,
+          "quote": "This mid-scale, oil-on-canvas painting is dominated by a moon- and star-filled night sky. It takes up three-quarters of the picture plane and appears turbulent, even agitated, with intensely swirling patterns that seem to roll across its surface like waves. It is pocked with bright orbs—including the crescent moon to the far right, and Venus, the morning star, to the left of center—surrounded by concentric circles of radiant white and yellow light."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_016",
+      "content": "중앙 왼쪽의 흰빛 고리를 두른 밝은 천체는 금성으로 해석된다.",
+      "categories": [
+        "VISUAL",
+        "BACKGROUND"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 45,
+          "quote": "In the middle of the sky, swirling light blue bands—like two letter “S’s” on their sides— tumble in horizontally from the left of the canvas, suggesting a tempestuous wind. Below, a lighter, denser band of clouds lines the horizon. Between these layers, is a golden orb surrounded by a white halo of paint that may be Venus, which is known as the morning star."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_017",
+      "content": "별 중심의 노란색이나 주황색에서 연녹색을 거쳐 짙은 파란 하늘로 이어지는 색채 전환이 나타난다.",
+      "categories": [
+        "VISUAL",
+        "TECHNIQUE"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 41,
+          "quote": "The sky is punctuated by 10 dazzling stars. Halos of concentric circles surround these glowing orbs. In most cases, van Gogh dots their center with a saturated yellow or orange, then adds light green to transition from these warmer colors to the deep blues of the sky. The smallest orb is the size of a golf ball and the largest is as big as an apple."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_018",
+      "content": "오른쪽 위 초승달 주변에는 노랑, 초록, 파랑의 원형 붓질이 있다.",
+      "categories": [
+        "VISUAL",
+        "TECHNIQUE"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 43,
+          "quote": "In the upper right corner, hangs a vibrant yellow crescent moon, also surrounded by strokes of yellow, green, and blue paint forming a circle around it."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_019",
+      "content": "화면 하단 언덕은 파란색 사선 붓질로 표현되었다.",
+      "categories": [
+        "VISUAL",
+        "TECHNIQUE"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 47,
+          "quote": "In the lower third of the painting, rolling hills stretch across the width of the canvas. They are made of diagonal blue brushstrokes. Below the hills, on the right side of the painting, are blue-green treetops made from curved brush strokes."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_020",
+      "content": "오른쪽 나무 꼭대기는 청록색 곡선 붓질로 표현되었다.",
+      "categories": [
+        "VISUAL",
+        "TECHNIQUE"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 47,
+          "quote": "In the lower third of the painting, rolling hills stretch across the width of the canvas. They are made of diagonal blue brushstrokes. Below the hills, on the right side of the painting, are blue-green treetops made from curved brush strokes."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_021",
+      "content": "집들은 수평선, 수직선, 사선과 차분한 회색, 검정, 파랑, 적갈색으로 표현되었다.",
+      "categories": [
+        "VISUAL",
+        "TECHNIQUE"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 49,
+          "quote": "In front of the trees, about a dozen rooftops are visible, as if seen from a hill overlooking the town. The houses are rendered with straight horizontal, vertical, and diagonal lines and painted in muted, nighttime tones, including gray, black, blue, and rust brown. A few are dotted with yellow squares to indicate light coming from their interiors. A blue-gray church stands in the center of the town, its pointed steeple barely breaches the horizon. The little village bears no resemblance to the real village of Saint-Rémy but draws inspiration from van Gogh’s native Holland."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_022",
+      "content": "일부 집에는 실내 불빛을 나타내는 노란 사각형이 보인다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 49,
+          "quote": "In front of the trees, about a dozen rooftops are visible, as if seen from a hill overlooking the town. The houses are rendered with straight horizontal, vertical, and diagonal lines and painted in muted, nighttime tones, including gray, black, blue, and rust brown. A few are dotted with yellow squares to indicate light coming from their interiors. A blue-gray church stands in the center of the town, its pointed steeple barely breaches the horizon. The little village bears no resemblance to the real village of Saint-Rémy but draws inspiration from van Gogh’s native Holland."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_023",
+      "content": "마을 중앙의 청회색 교회 첨탑이 지평선 위로 조금 솟아 있다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 49,
+          "quote": "In front of the trees, about a dozen rooftops are visible, as if seen from a hill overlooking the town. The houses are rendered with straight horizontal, vertical, and diagonal lines and painted in muted, nighttime tones, including gray, black, blue, and rust brown. A few are dotted with yellow squares to indicate light coming from their interiors. A blue-gray church stands in the center of the town, its pointed steeple barely breaches the horizon. The little village bears no resemblance to the real village of Saint-Rémy but draws inspiration from van Gogh’s native Holland."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_024",
+      "content": "교회 첨탑은 프랑스보다 고흐의 고향 네덜란드에서 흔한 형태를 닮았다.",
+      "categories": [
+        "VISUAL",
+        "BACKGROUND"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 17,
+          "quote": "The Starry Night is based on van Gogh’s direct observations as well as his imagination, memories, and emotions. The steeple of the church, for example, resembles those common in his native Holland, not in France. The whirling forms in the sky, on the other hand, match published astronomical observations of clouds of dust and gas known as nebulae. At once balanced and expressive, the composition is structured by his ordered placement of the cypress, steeple, and central nebulae, while his countless short brushstrokes and thickly applied paint set its surface in roiling motion. Such a combination of visual contrasts was generated by an artist who found beauty and interest in the night, which, for him, was “much more alive and richly colored than the day.”"
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_025",
+      "content": "사이프러스의 가지는 불꽃을 닮고 아래에서 넓다가 위로 갈수록 좁아진다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 51,
+          "quote": "Just left of center, rising up from the bottom of the canvas, a towering cypress tree dominates the foreground, connecting and bisecting land and sky. It’s painted with dark green, brown, and black brushstrokes, and its branches resemble the shape of flames. The tree is wide at the bottom of the canvas and tapers to a point near the top. Of all the features in the painting, the tree is nearest to us, and the darkest in color."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_026",
+      "content": "사이프러스는 짙은 녹색, 갈색, 검은색 붓질로 표현되었다.",
+      "categories": [
+        "VISUAL"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 51,
+          "quote": "Just left of center, rising up from the bottom of the canvas, a towering cypress tree dominates the foreground, connecting and bisecting land and sky. It’s painted with dark green, brown, and black brushstrokes, and its branches resemble the shape of flames. The tree is wide at the bottom of the canvas and tapers to a point near the top. Of all the features in the painting, the tree is nearest to us, and the darkest in color."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_027",
+      "content": "사이프러스는 가장 가까운 전경에 있고 화면에서 가장 어두운 요소다.",
+      "categories": [
+        "VISUAL",
+        "TECHNIQUE"
+      ],
+      "claim_type": "visual_observation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 51,
+          "quote": "Just left of center, rising up from the bottom of the canvas, a towering cypress tree dominates the foreground, connecting and bisecting land and sky. It’s painted with dark green, brown, and black brushstrokes, and its branches resemble the shape of flames. The tree is wide at the bottom of the canvas and tapers to a point near the top. Of all the features in the painting, the tree is nearest to us, and the darkest in color."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_028",
+      "content": "사이프러스는 땅과 하늘을 시각적으로 연결한다.",
+      "categories": [
+        "VISUAL",
+        "MEANING"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 15,
+          "quote": "Beneath this expressive sky sits a hushed village of humble houses surrounding a church, whose steeple rises sharply above the undulating blue-black mountains in the background. A cypress tree sits at the foreground of this night scene. Flame-like, it reaches almost to the top edge of the canvas, serving as a visual link between land and sky. Considered symbolically, the cypress could be seen as a bridge between life, as represented by the earth, and death, as represented by the sky, commonly associated with heaven. Cypresses were also regarded as trees of the graveyard and mourning. “But the sight of the stars always makes me dream,” van Gogh once wrote. “Why, I say to myself, should the spots of light in the firmament be less accessible to us than the black spots on the map of France? Just as we take the train to go to Tarascon or Rouen, we take death to go to a star.”"
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_029",
+      "content": "사이프러스, 교회 첨탑, 중앙의 소용돌이 배치가 역동적이면서 균형 잡힌 구성을 이룬다.",
+      "categories": [
+        "TECHNIQUE",
+        "MEANING"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 17,
+          "quote": "The Starry Night is based on van Gogh’s direct observations as well as his imagination, memories, and emotions. The steeple of the church, for example, resembles those common in his native Holland, not in France. The whirling forms in the sky, on the other hand, match published astronomical observations of clouds of dust and gas known as nebulae. At once balanced and expressive, the composition is structured by his ordered placement of the cypress, steeple, and central nebulae, while his countless short brushstrokes and thickly applied paint set its surface in roiling motion. Such a combination of visual contrasts was generated by an artist who found beauty and interest in the night, which, for him, was “much more alive and richly colored than the day.”"
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_030",
+      "content": "사이프러스는 삶과 죽음을 잇는 상징으로 해석될 수 있으나 확정된 제작 의도는 아니다.",
+      "categories": [
+        "MEANING"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "interpretation",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 15,
+          "quote": "Beneath this expressive sky sits a hushed village of humble houses surrounding a church, whose steeple rises sharply above the undulating blue-black mountains in the background. A cypress tree sits at the foreground of this night scene. Flame-like, it reaches almost to the top edge of the canvas, serving as a visual link between land and sky. Considered symbolically, the cypress could be seen as a bridge between life, as represented by the earth, and death, as represented by the sky, commonly associated with heaven. Cypresses were also regarded as trees of the graveyard and mourning. “But the sight of the stars always makes me dream,” van Gogh once wrote. “Why, I say to myself, should the spots of light in the firmament be less accessible to us than the black spots on the map of France? Just as we take the train to go to Tarascon or Rouen, we take death to go to a star.”"
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_031",
+      "content": "사이프러스는 묘지와 애도를 연상시키는 나무로 여겨져 왔다.",
+      "categories": [
+        "MEANING",
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "general",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 15,
+          "quote": "Beneath this expressive sky sits a hushed village of humble houses surrounding a church, whose steeple rises sharply above the undulating blue-black mountains in the background. A cypress tree sits at the foreground of this night scene. Flame-like, it reaches almost to the top edge of the canvas, serving as a visual link between land and sky. Considered symbolically, the cypress could be seen as a bridge between life, as represented by the earth, and death, as represented by the sky, commonly associated with heaven. Cypresses were also regarded as trees of the graveyard and mourning. “But the sight of the stars always makes me dream,” van Gogh once wrote. “Why, I say to myself, should the spots of light in the firmament be less accessible to us than the black spots on the map of France? Just as we take the train to go to Tarascon or Rouen, we take death to go to a star.”"
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_032",
+      "content": "짙은 파랑과 선명한 노랑의 물감을 리듬감 있는 두꺼운 붓질로 쌓아 질감을 만들었다.",
+      "categories": [
+        "VISUAL",
+        "TECHNIQUE"
+      ],
+      "claim_type": "technical_analysis",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_04",
+          "line": 35,
+          "quote": "Van Gogh applied the paint—mostly deep blues and vivid yellows—in thick layers of rhythmic brushstrokes resulting in a highly textured surface."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_033",
+      "content": "색채와 물감은 풍경을 묘사하면서 동시에 물감 자체의 물질성을 드러낸다.",
+      "categories": [
+        "TECHNIQUE",
+        "MEANING"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "current",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 7,
+          "quote": "Van Gogh assigned an emotional language to night and nature that took them far from their actual appearances. Dominated by vivid blues and yellows applied with gestural verve and immediacy, The Starry Night also demonstrates how inseparable van Gogh’s vision was from the new procedures of painting he had devised, in which color and paint describe a world outside the artwork even as they telegraph their own status as, merely, color and paint."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_034",
+      "content": "MoMA는 고흐가 밤과 자연에 감정의 언어를 부여했다고 설명한다.",
+      "categories": [
+        "MEANING"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "interpretation",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 7,
+          "quote": "Van Gogh assigned an emotional language to night and nature that took them far from their actual appearances. Dominated by vivid blues and yellows applied with gestural verve and immediacy, The Starry Night also demonstrates how inseparable van Gogh’s vision was from the new procedures of painting he had devised, in which color and paint describe a world outside the artwork even as they telegraph their own status as, merely, color and paint."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_035",
+      "content": "큐레이터 앤 템킨은 밤하늘이 작가 상상 속 혼란의 표현일 가능성을 제시한다.",
+      "categories": [
+        "MEANING"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "interpretation",
+      "evidence": [
+        {
+          "source_id": "STAR_05",
+          "line": 57,
+          "quote": "And I think one would be able to speculate, rather than being a portrait of what one might see looking up at a night sky in the summer of 1889, it's much more an expression of the turmoil in the artist's own imagination that he's projecting onto that sky."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_036",
+      "content": "고흐는 밤이 낮보다 더 생생하고 색채가 풍부하다고 여겼다.",
+      "categories": [
+        "MEANING"
+      ],
+      "claim_type": "artist_description",
+      "scope": "general",
+      "evidence": [
+        {
+          "source_id": "STAR_02",
+          "line": 17,
+          "quote": "The Starry Night is based on van Gogh’s direct observations as well as his imagination, memories, and emotions. The steeple of the church, for example, resembles those common in his native Holland, not in France. The whirling forms in the sky, on the other hand, match published astronomical observations of clouds of dust and gas known as nebulae. At once balanced and expressive, the composition is structured by his ordered placement of the cypress, steeple, and central nebulae, while his countless short brushstrokes and thickly applied paint set its surface in roiling motion. Such a combination of visual contrasts was generated by an artist who found beauty and interest in the night, which, for him, was “much more alive and richly colored than the day.”"
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_037",
+      "content": "고흐는 주로 독학으로 그림을 배웠으며 2천 점 이상의 다양한 작품을 제작했다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "general",
+      "evidence": [
+        {
+          "source_id": "STAR_03",
+          "line": 21,
+          "quote": "Largely self-taught, van Gogh produced more than 2,000 oil-paintings, watercolors, drawings, and sketches, which became in demand only after his death. He also wrote scores of letters, especially to his brother Theo, in which he worked out his thoughts about art. “Always continue walking a lot and loving nature, for that’s the real way to learn to understand art better and better,” he wrote in 1874. “Painters understand nature and love it, and teach us to see.”"
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_038",
+      "content": "1886년 파리에서 인상주의, 신인상주의 및 쇠라의 점묘적 구성을 접했다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "general",
+      "evidence": [
+        {
+          "source_id": "STAR_03",
+          "line": 25,
+          "quote": "In 1886, van Gogh moved to Paris, where he encountered the works of the Impressionists and Neo-Impressionists, and the Pointillist compositions of Georges Seurat. Inspired by these artists’ harmonious matching of colors, shorter brushstrokes, and liberal use of paint, he brightened his own palette and loosened his brushwork, emphasizing the physical application of paint on the canvas. The style he developed in Paris and carried through to the end of his life became known as Post-Impressionism, a term encompassing works made by artists unified by their interest in expressing their emotional and psychological responses to the world through bold colors and expressive, often symbolic images. In a letter to his sister Willemien, touching upon the mind and temperament of artists, van Gogh once wrote that he was “very sensitive to color and its particular language, its effects of complementaries, contrasts, harmony.”"
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_039",
+      "content": "이들의 영향으로 팔레트가 밝아지고 붓질이 자유로워졌으며 물감의 물질적 적용을 강조했다.",
+      "categories": [
+        "TECHNIQUE",
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "general",
+      "evidence": [
+        {
+          "source_id": "STAR_03",
+          "line": 25,
+          "quote": "In 1886, van Gogh moved to Paris, where he encountered the works of the Impressionists and Neo-Impressionists, and the Pointillist compositions of Georges Seurat. Inspired by these artists’ harmonious matching of colors, shorter brushstrokes, and liberal use of paint, he brightened his own palette and loosened his brushwork, emphasizing the physical application of paint on the canvas. The style he developed in Paris and carried through to the end of his life became known as Post-Impressionism, a term encompassing works made by artists unified by their interest in expressing their emotional and psychological responses to the world through bold colors and expressive, often symbolic images. In a letter to his sister Willemien, touching upon the mind and temperament of artists, van Gogh once wrote that he was “very sensitive to color and its particular language, its effects of complementaries, contrasts, harmony.”"
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_040",
+      "content": "고흐의 화풍은 대담한 색채와 표현적 이미지로 감정과 심리적 반응을 전달하는 후기인상주의로 설명된다.",
+      "categories": [
+        "BACKGROUND",
+        "MEANING"
+      ],
+      "claim_type": "curatorial_interpretation",
+      "scope": "general",
+      "evidence": [
+        {
+          "source_id": "STAR_03",
+          "line": 25,
+          "quote": "In 1886, van Gogh moved to Paris, where he encountered the works of the Impressionists and Neo-Impressionists, and the Pointillist compositions of Georges Seurat. Inspired by these artists’ harmonious matching of colors, shorter brushstrokes, and liberal use of paint, he brightened his own palette and loosened his brushwork, emphasizing the physical application of paint on the canvas. The style he developed in Paris and carried through to the end of his life became known as Post-Impressionism, a term encompassing works made by artists unified by their interest in expressing their emotional and psychological responses to the world through bold colors and expressive, often symbolic images. In a letter to his sister Willemien, touching upon the mind and temperament of artists, van Gogh once wrote that he was “very sensitive to color and its particular language, its effects of complementaries, contrasts, harmony.”"
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_041",
+      "content": "1888년 프랑스 시골로 돌아가 풍경, 초상, 실내, 정물 등을 그렸다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "general",
+      "evidence": [
+        {
+          "source_id": "STAR_03",
+          "line": 27,
+          "quote": "By 1888, van Gogh had returned to the French countryside, where he would remain until his death. There, close once again to the peasants who had inspired him early on, he concentrated on painting landscapes, portraits (of himself and others), domestic interiors, and still lifes full of personal symbolism."
+        }
+      ]
+    },
+    {
+      "id": "STAR_CU_042",
+      "content": "1889~1890년 정신적 어려움에 대한 치료를 위해 요양원에서 약 1년을 보냈다.",
+      "categories": [
+        "BACKGROUND"
+      ],
+      "claim_type": "fact",
+      "scope": "original",
+      "evidence": [
+        {
+          "source_id": "STAR_01",
+          "line": 5,
+          "quote": "In creating this image of the night sky—dominated by the bright moon at right and Venus at center left—van Gogh heralded modern painting’s new embrace of mood, expression, symbol, and sentiment. Inspired by the view from his window at the Saint-Paul-de-Mausole asylum in Saint-Rémy, in southern France, where the artist spent twelve months in 1889–90 seeking reprieve from his mental illnesses, The Starry Night(made in mid-June) is both an exercise in observation and a clear departure from it. The vision took place at night, yet the painting, among hundreds of artworks van Gogh made that year, was created in several sessions during the day, under entirely different atmospheric conditions. The picturesque village nestled below the hills was based on other views—it could not be seen from his window—and the cypress at left appears much closer than it was. And although certain features of the sky have been reconstructed as observed, the artist altered celestial shapes and added a sense of glow."
+        }
+      ]
+    }
+  ],
+  "knowledge_items": [
+    {
+      "id": "STAR_KI_001",
+      "topic": "관찰과 상상",
+      "visual_anchors": [
+        "마을",
+        "사이프러스",
+        "밤하늘"
+      ],
+      "unit_ids": [
+        "STAR_CU_001",
+        "STAR_CU_002",
+        "STAR_CU_003",
+        "STAR_CU_004",
+        "STAR_CU_005",
+        "STAR_CU_006",
+        "STAR_CU_007",
+        "STAR_CU_008"
+      ]
+    },
+    {
+      "id": "STAR_KI_002",
+      "topic": "밤하늘의 움직임",
+      "visual_anchors": [
+        "하늘 중앙",
+        "소용돌이",
+        "지평선"
+      ],
+      "unit_ids": [
+        "STAR_CU_009",
+        "STAR_CU_010",
+        "STAR_CU_011",
+        "STAR_CU_012",
+        "STAR_CU_013",
+        "STAR_CU_014"
+      ]
+    },
+    {
+      "id": "STAR_KI_003",
+      "topic": "별과 달의 빛",
+      "visual_anchors": [
+        "오른쪽 위 달",
+        "중앙 왼쪽 밝은 별"
+      ],
+      "unit_ids": [
+        "STAR_CU_015",
+        "STAR_CU_016",
+        "STAR_CU_017",
+        "STAR_CU_018"
+      ]
+    },
+    {
+      "id": "STAR_KI_004",
+      "topic": "마을과 언덕",
+      "visual_anchors": [
+        "화면 하단",
+        "지붕",
+        "교회"
+      ],
+      "unit_ids": [
+        "STAR_CU_019",
+        "STAR_CU_020",
+        "STAR_CU_021",
+        "STAR_CU_022",
+        "STAR_CU_023",
+        "STAR_CU_024"
+      ]
+    },
+    {
+      "id": "STAR_KI_005",
+      "topic": "사이프러스와 화면 구성",
+      "visual_anchors": [
+        "왼쪽 전경",
+        "교회 첨탑",
+        "하늘"
+      ],
+      "unit_ids": [
+        "STAR_CU_025",
+        "STAR_CU_026",
+        "STAR_CU_027",
+        "STAR_CU_028",
+        "STAR_CU_029",
+        "STAR_CU_030",
+        "STAR_CU_031"
+      ]
+    },
+    {
+      "id": "STAR_KI_006",
+      "topic": "색채와 회화적 표현",
+      "visual_anchors": [
+        "파란 하늘",
+        "노란 별",
+        "물감 표면"
+      ],
+      "unit_ids": [
+        "STAR_CU_032",
+        "STAR_CU_033",
+        "STAR_CU_034",
+        "STAR_CU_035",
+        "STAR_CU_036"
+      ]
+    },
+    {
+      "id": "STAR_KI_007",
+      "topic": "작가와 미술사적 배경",
+      "visual_anchors": [
+        "작품 전체"
+      ],
+      "unit_ids": [
+        "STAR_CU_037",
+        "STAR_CU_038",
+        "STAR_CU_039",
+        "STAR_CU_040",
+        "STAR_CU_041",
+        "STAR_CU_042"
+      ]
+    }
+  ]
+}
